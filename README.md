@@ -1,5 +1,6 @@
 # cantera_eCat_MKM_CO2R
 Microkinetic Modelling of electrocatalytic CO2 reduction by using Cantera libraries
+Cantera C++ library needs to be installed for compilation, Python needed for pre-processing and checking of input files
 
 # Input File Manual
 There are two main input files needed for executing the C++ code: a mechanism file (XML) and an option-defining file (txt).
@@ -164,11 +165,27 @@ Cantera_Catalyst.exe can be started via command line. It takes two different arg
 - defined option input file path/name (default: “input.txt”)
 - executable batch script, for example to create CTI/XML files from CSV via pre-processing scripts (default: “runBefore.bat”)
 
-
 ## Pre-processing Software (Python)
+A few Python scripts help with generating the input file in a thermodynamically consistent manner.
 
+### solveThermoLES
+Generates a Linear Equation System based on the reaction steps and intermediates given. All Gibbs Free Energies (dG_given) of steps with dG_given=TRUE and all chemical potentials (mu_given) with mu_given=TRUE are set as boundary conditions. Based on these, the remaining dG and mu values are calculated. It then checks for all species and reactions with a dG_given or mu_given, how close the actual values are and for all with a dG_min/dG_max or mu_min/mu_max if the actual values are within the defined ranges. It creates an output file that gives information on objective function / target distance and identifies broken constraints. It takes 5 arguments:
+1. File path/name of mechanism CSV file (to read). Default is "mechanism.csv"
+2. File path/name of species CSV file (to read). Default is "species.csv"
+3. File path/name of status output file (to write). Default is empty string which means no status output file is created
+4. File path/name of completed mechanism CSV file (to write). Default is "mechanism2.csv"
+5. File path/name of completed species CSV file (to write). Default is "species2.csv"
 
+### mechGen
+Generates a CTI input file based on mechanism, species and phase CSV files. Uses a template header and then populates phases, species and reactions in that order. It takes 3 arguments:
+1. File path/name of mechanism CSV file (to read). Default is "mechanism.csv"
+2. File path/name of species CSV file (to read). Default is "species.csv"
+3. File path/name of phase CSV file (to read). Default is "phases.csv"
+4. File path/name of CTI output file (to write). Default is "mechanism.cti"
+5. File path/name of TXT header file for CTI output. Default is "template.txt"
+
+### ctml_writer
+See https://github.com/Cantera/cantera/tree/2.6/interfaces/cython/cantera
 
 ## Post-processing software (Matlab)
-
-
+tbd
