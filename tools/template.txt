@@ -1,0 +1,8 @@
+####################### PARAMETERS ####################################
+
+t_0 = 298.15	 # standard temperature in K
+p_0 = 101325	 # standard pressure in Pa
+
+units(act_energy='eV')
+
+####################### PHASES ####################################

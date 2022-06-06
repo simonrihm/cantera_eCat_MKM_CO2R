@@ -47,12 +47,6 @@ int main(int argc, char *argv[])
 		if (argc > 2) {
 			ioManager::exec(argv[2]);
 		}
-		/*if (argc > 3) {
-			ioManager::setOutputPath(argv[3]);
-		}
-		if (argc > 4) {
-			ioManager::setReqInteract(argv[4]);
-		}*/
 
 		// read and run mechanism
 		ioManager::readInputFile();
