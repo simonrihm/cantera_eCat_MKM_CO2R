@@ -1,0 +1,2321 @@
+####################### PARAMETERS ####################################
+
+t_0 = 298.15	 # standard temperature in K
+p_0 = 101325	 # standard pressure in Pa
+
+units(act_energy='eV')
+
+####################### PHASES ####################################
+#------------------------------------------------------------------ 
+#
+#    gas phase
+#
+#------------------------------------------------------------------ 
+
+ideal_gas(
+	 name='gas',
+	 elements='H C O E N',
+	 species=('H2','CH4','CH2O','C2H4','N2'),
+	  initial_state=state(
+	 	 mole_fractions='H2:0.0,CH4:0.0,CH2O:0.0,C2H4:0.0,N2:1.0',
+	 	 temperature=t_0,
+	 	 pressure=p_0
+	 ),
+	 transport='None',
+	 reactions='None',
+)
+
+species(
+	 name='H2',
+	 atoms='H:2 C:0 O:0 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(0.038,'eV'),
+	 )
+)
+
+species(
+	 name='CH4',
+	 atoms='H:4 C:1 O:0 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.48,'eV'),
+	 )
+)
+
+species(
+	 name='CH2O',
+	 atoms='H:2 C:1 O:1 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.06,'eV'),
+	 )
+)
+
+species(
+	 name='C2H4',
+	 atoms='H:4 C:2 O:0 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(0.75,'eV'),
+	 )
+)
+
+species(
+	 name='N2',
+	 atoms='H:0 C:0 O:0 E:0 N:2',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(0.0,'eV'),
+	 )
+)
+
+#------------------------------------------------------------------ 
+#
+#    liquid phase
+#
+#------------------------------------------------------------------ 
+
+incompressible_solid(
+	 name='liquid',
+	 elements='H C O E N',
+	 species=('OH-','H2O','H+','CO2','CO','HCOOH','HCOO-','CH3OH','CH3COOH','CH3CH2OH'),
+	  initial_state=state(
+	 	 mole_fractions='OH-:1.37e-09,H2O:1.0,H+:2.86e-09,CO2:0.0002,CO:0.0,HCOOH:0.0,HCOO-:0.0,CH3OH:0.0,CH3COOH:0.0,CH3CH2OH:0.0',
+	 	 temperature=t_0,
+	 	 pressure=p_0
+	 ),
+	 transport='None',
+	 density=(997,'kg/m3'),
+)
+
+species(
+	 name='OH-',
+	 atoms='H:1 C:0 O:1 E:1 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.619,'eV'),
+	 )
+)
+
+species(
+	 name='H2O',
+	 atoms='H:2 C:0 O:1 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.43,'eV'),
+	 )
+)
+
+species(
+	 name='H+',
+	 atoms='H:1 C:0 O:0 E:-1 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(0.019,'eV'),
+	 )
+)
+
+species(
+	 name='CO2',
+	 atoms='H:0 C:1 O:2 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-4.01,'eV'),
+	 )
+)
+
+species(
+	 name='CO',
+	 atoms='H:0 C:1 O:1 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.3,'eV'),
+	 )
+)
+
+species(
+	 name='HCOOH',
+	 atoms='H:2 C:1 O:2 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-3.85,'eV'),
+	 )
+)
+
+species(
+	 name='HCOO-',
+	 atoms='H:1 C:1 O:2 E:1 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-3.65,'eV'),
+	 )
+)
+
+species(
+	 name='CH3OH',
+	 atoms='H:4 C:1 O:1 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.83,'eV'),
+	 )
+)
+
+species(
+	 name='CH3COOH',
+	 atoms='H:4 C:2 O:2 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-4.15,'eV'),
+	 )
+)
+
+species(
+	 name='CH3CH2OH',
+	 atoms='H:6 C:2 O:1 E:0 N:0',
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.86,'eV'),
+	 )
+)
+
+#------------------------------------------------------------------ 
+#
+#    solid phase
+#
+#------------------------------------------------------------------ 
+
+metal(
+	 name='solid',
+	 elements='H C O E N',
+	 species=('e-'),
+	  initial_state=state(
+	 	 mole_fractions='e-:1.0',
+	 	 temperature=t_0,
+	 	 pressure=p_0
+	 ),
+	 transport='None',
+	 density=(8908,'kg/m3'),
+)
+
+species(
+	 name='e-',
+	 atoms='H:0 C:0 O:0 E:1 N:0',
+)
+
+#------------------------------------------------------------------ 
+#
+#    surface phase
+#
+#------------------------------------------------------------------ 
+
+ideal_interface(
+	 name='surface',
+	 elements='H C O E N',
+	 species=('*H','*H2O','*COOH','*CO','*CO2-','*CO2','*OCHO','*COH','*C','*CH','*CH2','*CH3','*CHO','**CH2O','*CHOH','**CH2OH','*CH2OH','*OCH3','*O','**OCCO','**(CO)2','**COHCO','*CCO','**COCOH','*CHCO','***CH2CO','**OCHCH2','**CH2OCH2','**CHCH2O','**CHOHCH2O','**COHCH2O','*COHCH2O','**COCH2O','**COCHOH','*COCHO','**COCHO','**OCHCH','**CHOCHOH','**CHOCH2OH','*OCHCH2','**CHOCHO','**OHCH2CH2','*OH','**CHOHCH2','*CH2CH2OH','**OHCHCH2','**CHCH2','*'),
+	  initial_state=state(
+	 	 coverages='*H:0.0,*H2O:0.0,*COOH:0.0,*CO:0.0,*CO2-:0.0,*CO2:0.0,*OCHO:0.0,*COH:0.0,*C:0.0,*CH:0.0,*CH2:0.0,*CH3:0.0,*CHO:0.0,**CH2O:0.0,*CHOH:0.0,**CH2OH:0.0,*CH2OH:0.0,*OCH3:0.0,*O:0.0,**OCCO:0.0,**(CO)2:0.0,**COHCO:0.0,*CCO:0.0,**COCOH:0.0,*CHCO:0.0,***CH2CO:0.0,**OCHCH2:0.0,**CH2OCH2:0.0,**CHCH2O:0.0,**CHOHCH2O:0.0,**COHCH2O:0.0,*COHCH2O:0.0,**COCH2O:0.0,**COCHOH:0.0,*COCHO:0.0,**COCHO:0.0,**OCHCH:0.0,**CHOCHOH:0.0,**CHOCH2OH:0.0,*OCHCH2:0.0,**CHOCHO:0.0,**OHCH2CH2:0.0,*OH:0.0,**CHOHCH2:0.0,*CH2CH2OH:0.0,**OHCHCH2:0.0,**CHCH2:0.0,*:1.0',
+	 	 temperature=t_0,
+	 	 pressure=p_0
+	 ),
+	 transport='None',
+	 reactions='all',
+	 site_density=(2.177e-8,'kmol/m2'),
+	 phases='gas solid liquid',
+)
+
+species(
+	 name='*H',
+	 atoms='H:1 C:0 O:0 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(0.129,'eV'),
+	 )
+)
+
+species(
+	 name='*H2O',
+	 atoms='H:2 C:0 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.37,'eV'),
+	 )
+)
+
+species(
+	 name='*COOH',
+	 atoms='H:1 C:1 O:2 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-3.401,'eV'),
+	 )
+)
+
+species(
+	 name='*CO',
+	 atoms='H:0 C:1 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.55,'eV'),
+	 )
+)
+
+species(
+	 name='*CO2-',
+	 atoms='H:0 C:1 O:2 E:1 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-3.69,'eV'),
+	 )
+)
+
+species(
+	 name='*CO2',
+	 atoms='H:0 C:1 O:2 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-3.68,'eV'),
+	 )
+)
+
+species(
+	 name='*OCHO',
+	 atoms='H:1 C:1 O:2 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-4.041,'eV'),
+	 )
+)
+
+species(
+	 name='*COH',
+	 atoms='H:1 C:1 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.791,'eV'),
+	 )
+)
+
+species(
+	 name='*C',
+	 atoms='H:0 C:1 O:0 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(1.498,'eV'),
+	 )
+)
+
+species(
+	 name='*CH',
+	 atoms='H:1 C:1 O:0 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(1.117,'eV'),
+	 )
+)
+
+species(
+	 name='*CH2',
+	 atoms='H:2 C:1 O:0 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(1.216,'eV'),
+	 )
+)
+
+species(
+	 name='*CH3',
+	 atoms='H:3 C:1 O:0 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(0.675,'eV'),
+	 )
+)
+
+species(
+	 name='*CHO',
+	 atoms='H:1 C:1 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.911,'eV'),
+	 )
+)
+
+species(
+	 name='**CH2O',
+	 atoms='H:2 C:1 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.122,'eV'),
+	 )
+)
+
+species(
+	 name='*CHOH',
+	 atoms='H:2 C:1 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.502,'eV'),
+	 )
+)
+
+species(
+	 name='**CH2OH',
+	 atoms='H:3 C:1 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.823,'eV'),
+	 )
+)
+
+species(
+	 name='*CH2OH',
+	 atoms='H:3 C:1 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.163,'eV'),
+	 )
+)
+
+species(
+	 name='*OCH3',
+	 atoms='H:3 C:1 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.553,'eV'),
+	 )
+)
+
+species(
+	 name='*O',
+	 atoms='H:0 C:0 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.354,'eV'),
+	 )
+)
+
+species(
+	 name='**OCCO',
+	 atoms='H:0 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.09,'eV'),
+	 )
+)
+
+species(
+	 name='**(CO)2',
+	 atoms='H:0 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.8,'eV'),
+	 )
+)
+
+species(
+	 name='**COHCO',
+	 atoms='H:1 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.871,'eV'),
+	 )
+)
+
+species(
+	 name='*CCO',
+	 atoms='H:0 C:2 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.012,'eV'),
+	 )
+)
+
+species(
+	 name='**COCOH',
+	 atoms='H:1 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.681,'eV'),
+	 )
+)
+
+species(
+	 name='*CHCO',
+	 atoms='H:1 C:2 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.683,'eV'),
+	 )
+)
+
+species(
+	 name='***CH2CO',
+	 atoms='H:2 C:2 O:1 E:0 N:0',
+	 size=3,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.634,'eV'),
+	 )
+)
+
+species(
+	 name='**OCHCH2',
+	 atoms='H:3 C:2 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.125,'eV'),
+	 )
+)
+
+species(
+	 name='**CH2OCH2',
+	 atoms='H:4 C:2 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.046,'eV'),
+	 )
+)
+
+species(
+	 name='**CHCH2O',
+	 atoms='H:3 C:2 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.325,'eV'),
+	 )
+)
+
+species(
+	 name='**CHOHCH2O',
+	 atoms='H:4 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.974,'eV'),
+	 )
+)
+
+species(
+	 name='**COHCH2O',
+	 atoms='H:3 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.033,'eV'),
+	 )
+)
+
+species(
+	 name='*COHCH2O',
+	 atoms='H:3 C:2 O:2 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.333,'eV'),
+	 )
+)
+
+species(
+	 name='**COCH2O',
+	 atoms='H:2 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.732,'eV'),
+	 )
+)
+
+species(
+	 name='**COCHOH',
+	 atoms='H:2 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.132,'eV'),
+	 )
+)
+
+species(
+	 name='*COCHO',
+	 atoms='H:1 C:2 O:2 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.601,'eV'),
+	 )
+)
+
+species(
+	 name='**COCHO',
+	 atoms='H:1 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.521,'eV'),
+	 )
+)
+
+species(
+	 name='**OCHCH',
+	 atoms='H:2 C:2 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.044,'eV'),
+	 )
+)
+
+species(
+	 name='**CHOCHOH',
+	 atoms='H:3 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.643,'eV'),
+	 )
+)
+
+species(
+	 name='**CHOCH2OH',
+	 atoms='H:4 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-3.124,'eV'),
+	 )
+)
+
+species(
+	 name='*OCHCH2',
+	 atoms='H:3 C:2 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.525,'eV'),
+	 )
+)
+
+species(
+	 name='**CHOCHO',
+	 atoms='H:2 C:2 O:2 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-3.012,'eV'),
+	 )
+)
+
+species(
+	 name='**OHCH2CH2',
+	 atoms='H:5 C:2 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.997,'eV'),
+	 )
+)
+
+species(
+	 name='*OH',
+	 atoms='H:1 C:0 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-2.397,'eV'),
+	 )
+)
+
+species(
+	 name='**CHOHCH2',
+	 atoms='H:4 C:2 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.306,'eV'),
+	 )
+)
+
+species(
+	 name='*CH2CH2OH',
+	 atoms='H:5 C:2 O:1 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-1.237,'eV'),
+	 )
+)
+
+species(
+	 name='**OHCHCH2',
+	 atoms='H:4 C:2 O:1 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(-0.716,'eV'),
+	 )
+)
+
+species(
+	 name='**CHCH2',
+	 atoms='H:3 C:2 O:0 E:0 N:0',
+	 size=2,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(1.793,'eV'),
+	 )
+)
+
+species(
+	 name='*',
+	 atoms='H:0 C:0 O:0 E:0 N:0',
+	 size=1,
+	 thermo=const_cp(
+	 	 t0=t_0,
+	 	 cp0=(0,'J/mol/K'),
+	 	 s0=(0,'J/mol/K'),
+	 	 h0=(0.0,'eV'),
+	 )
+)
+
+ 
+####################### REACTIONS #################################### 
+ 
+ 
+surface_reaction(
+	 id='A98Bacid',
+	 equation='H+ + * + e- <=> *H',
+	 kf=(6210000000000.0,0,1.5),
+	 beta=0.8
+)
+ 
+ 
+surface_reaction(
+	 id='A98Bwater',
+	 equation='H2O + * + e- <=> *H + OH-',
+	 kf=(6210000000000.0,0,1.54),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='A95A',
+	 equation='* + H2O <=> *H2O',
+	 kf=(6210000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='O93A',
+	 equation='e- + *H2O <=> *H + OH-',
+	 kf=(6210000000000.0,0,0.68),
+	 beta=0.42
+)
+ 
+ 
+surface_reaction(
+	 id='HD96Atafel',
+	 equation='*H + *H <=> H2 + * + *',
+	 kf=(6210000000000000.0,0,0.8),
+)
+ 
+ 
+surface_reaction(
+	 id='HD96Aacid',
+	 equation='H+ + e- + *H <=> H2 + *',
+	 kf=(6210000000000.0,0,1.8),
+	 beta=1.0
+)
+ 
+ 
+surface_reaction(
+	 id='HD96Awater',
+	 equation='H2O + e- + *H <=> H2 + * + OH-',
+	 kf=(6210000000000.0,0,1.53),
+	 beta=0.8
+)
+ 
+ 
+surface_reaction(
+	 id='AH01Atafel',
+	 equation='*H + * + CO2 <=> *COOH + *',
+	 kf=(6210000000000000.0,0,0.92),
+)
+ 
+ 
+surface_reaction(
+	 id='AH01Aacid',
+	 equation='H+ + * + e- + CO2 <=> *COOH',
+	 kf=(6210000000000.0,0,0.92),
+	 beta=0.44
+)
+ 
+ 
+surface_reaction(
+	 id='AH01Awater',
+	 equation='H2O + * + e- + CO2 <=> *COOH + OH-',
+	 kf=(6210000000000.0,0,0.92),
+	 beta=0.44
+)
+ 
+ 
+surface_reaction(
+	 id='A13A',
+	 equation='* + CO <=> *CO',
+	 kf=(6210000000000.0,0,0.2),
+)
+ 
+ 
+surface_reaction(
+	 id='H02Atafel',
+	 equation='*H + *COOH <=> *CO + H2O + *',
+	 kf=(6210000000000000.0,0,0.5),
+)
+ 
+ 
+surface_reaction(
+	 id='H02Aacid',
+	 equation='H+ + e- + *COOH <=> *CO + H2O',
+	 kf=(6210000000000.0,0,0.5),
+	 beta=0.52
+)
+ 
+ 
+surface_reaction(
+	 id='H02Awater',
+	 equation='e- + *COOH <=> *CO + OH-',
+	 kf=(6210000000000.0,0,0.5),
+	 beta=0.52
+)
+ 
+ 
+surface_reaction(
+	 id='A01A',
+	 equation='* + e- + CO2 <=> *CO2-',
+	 kf=(6210000000000.0,0,0.43),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H06Aacid',
+	 equation='H+ + *CO2- <=> *COOH',
+	 kf=(6210000000000.0,0,0.37),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H06Awater',
+	 equation='H2O + *CO2- <=> *COOH + OH-',
+	 kf=(6210000000000.0,0,0.37),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='A01B',
+	 equation='* + CO2 <=> *CO2',
+	 kf=(6210000000000.0,0,0.43),
+)
+ 
+ 
+surface_reaction(
+	 id='AH01Btafel',
+	 equation='*H + * + CO2 <=> *OCHO + *',
+	 kf=(6210000000000000.0,0,1.0),
+)
+ 
+ 
+surface_reaction(
+	 id='AH01Bacid',
+	 equation='H+ + * + e- + CO2 <=> *OCHO',
+	 kf=(6210000000000.0,0,1.0),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='AH01Bwater',
+	 equation='H2O + * + e- + CO2 <=> *OCHO + OH-',
+	 kf=(6210000000000.0,0,1.0),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H82Btafel',
+	 equation='*H + *CO2 <=> *OCHO + *',
+	 kf=(6210000000000000.0,0,0.8),
+)
+ 
+ 
+surface_reaction(
+	 id='H82Bacid',
+	 equation='H+ + e- + *CO2 <=> *OCHO',
+	 kf=(6210000000000.0,0,0.8),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H82Bwater',
+	 equation='H2O + e- + *CO2 <=> *OCHO + OH-',
+	 kf=(6210000000000.0,0,0.8),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD07Atafel',
+	 equation='*H + *OCHO <=> HCOOH + * + *',
+	 kf=(6210000000000000.0,0,1.5),
+)
+ 
+ 
+surface_reaction(
+	 id='HD07Aacid',
+	 equation='H+ + e- + *OCHO <=> HCOOH + *',
+	 kf=(6210000000000.0,0,1.5),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD07Awater',
+	 equation='H2O + e- + *OCHO <=> HCOOH + * + OH-',
+	 kf=(6210000000000.0,0,1.5),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H03Btafel',
+	 equation='*H + *CO <=> *COH + *',
+	 kf=(6210000000000000.0,0,0.916),
+)
+ 
+ 
+surface_reaction(
+	 id='H03Bacid',
+	 equation='H+ + e- + *CO <=> *COH',
+	 kf=(6210000000000.0,0,0.916),
+	 beta=0.46
+)
+ 
+ 
+surface_reaction(
+	 id='H03Bwater',
+	 equation='H2O + e- + *CO <=> *COH + OH-',
+	 kf=(6210000000000.0,0,0.916),
+	 beta=0.46
+)
+ 
+ 
+surface_reaction(
+	 id='H05Atafel',
+	 equation='*H + *COH <=> *C + H2O + *',
+	 kf=(6210000000000000.0,0,1.002),
+)
+ 
+ 
+surface_reaction(
+	 id='H05Aacid',
+	 equation='H+ + e- + *COH <=> *C + H2O',
+	 kf=(6210000000000.0,0,1.002),
+	 beta=0.46
+)
+ 
+ 
+surface_reaction(
+	 id='H05Awater',
+	 equation='e- + *COH <=> *C + OH-',
+	 kf=(6210000000000.0,0,1.002),
+	 beta=0.46
+)
+ 
+ 
+surface_reaction(
+	 id='H33Atafel',
+	 equation='*H + *C <=> *CH + *',
+	 kf=(6210000000000000.0,0,0.835),
+)
+ 
+ 
+surface_reaction(
+	 id='H33Aacid',
+	 equation='H+ + e- + *C <=> *CH',
+	 kf=(6210000000000.0,0,0.835),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H33Awater',
+	 equation='H2O + e- + *C <=> *CH + OH-',
+	 kf=(6210000000000.0,0,0.835),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H34Atafel',
+	 equation='*H + *CH <=> *CH2 + *',
+	 kf=(6210000000000000.0,0,0.655),
+)
+ 
+ 
+surface_reaction(
+	 id='H34Aacid',
+	 equation='H+ + e- + *CH <=> *CH2',
+	 kf=(6210000000000.0,0,0.655),
+	 beta=0.49
+)
+ 
+ 
+surface_reaction(
+	 id='H34Awater',
+	 equation='H2O + e- + *CH <=> *CH2 + OH-',
+	 kf=(6210000000000.0,0,0.655),
+	 beta=0.49
+)
+ 
+ 
+surface_reaction(
+	 id='H35Atafel',
+	 equation='*H + *CH2 <=> *CH3 + *',
+	 kf=(6210000000000000.0,0,0.69),
+)
+ 
+ 
+surface_reaction(
+	 id='H35Aacid',
+	 equation='H+ + e- + *CH2 <=> *CH3',
+	 kf=(6210000000000.0,0,0.69),
+	 beta=0.49
+)
+ 
+ 
+surface_reaction(
+	 id='H35Awater',
+	 equation='H2O + e- + *CH2 <=> *CH3 + OH-',
+	 kf=(6210000000000.0,0,0.69),
+	 beta=0.49
+)
+ 
+ 
+surface_reaction(
+	 id='HD36Atafel',
+	 equation='*H + *CH3 <=> CH4 + * + *',
+	 kf=(6210000000000000.0,0,0.79),
+)
+ 
+ 
+surface_reaction(
+	 id='HD36Aacid',
+	 equation='H+ + e- + *CH3 <=> CH4 + *',
+	 kf=(6210000000000.0,0,0.79),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD36Awater',
+	 equation='H2O + e- + *CH3 <=> CH4 + * + OH-',
+	 kf=(6210000000000.0,0,0.79),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H03Atafel',
+	 equation='*H + *CO <=> *CHO + *',
+	 kf=(6210000000000000.0,0,0.641),
+)
+ 
+ 
+surface_reaction(
+	 id='H03Aacid',
+	 equation='H+ + e- + *CO <=> *CHO',
+	 kf=(6210000000000.0,0,0.641),
+	 beta=0.53
+)
+ 
+ 
+surface_reaction(
+	 id='H03Awater',
+	 equation='H2O + e- + *CO <=> *CHO + OH-',
+	 kf=(6210000000000.0,0,0.641),
+	 beta=0.53
+)
+ 
+ 
+surface_reaction(
+	 id='H04Btafel',
+	 equation='*H + * + *CHO <=> **CH2O + *',
+	 kf=(6210000000000000.0,0,0.49),
+)
+ 
+ 
+surface_reaction(
+	 id='H04Bacid',
+	 equation='H+ + * + e- + *CHO <=> **CH2O',
+	 kf=(6210000000000.0,0,0.49),
+	 beta=0.51
+)
+ 
+ 
+surface_reaction(
+	 id='H04Bwater',
+	 equation='H2O + * + e- + *CHO <=> **CH2O + OH-',
+	 kf=(6210000000000.0,0,0.49),
+	 beta=0.51
+)
+ 
+ 
+surface_reaction(
+	 id='D39A',
+	 equation='**CH2O <=> CH2O + * + *',
+	 kf=(6210000000000.0,0,0.3),
+)
+ 
+ 
+surface_reaction(
+	 id='H04Atafel',
+	 equation='*H + *CHO <=> *CHOH + *',
+	 kf=(6210000000000000.0,0,0.98),
+)
+ 
+ 
+surface_reaction(
+	 id='H04Aacid',
+	 equation='H+ + e- + *CHO <=> *CHOH',
+	 kf=(6210000000000.0,0,0.98),
+	 beta=0.47
+)
+ 
+ 
+surface_reaction(
+	 id='H04Awater',
+	 equation='H2O + e- + *CHO <=> *CHOH + OH-',
+	 kf=(6210000000000.0,0,0.98),
+	 beta=0.47
+)
+ 
+ 
+surface_reaction(
+	 id='H39Aitafel',
+	 equation='*H + **CH2O <=> **CH2OH + *',
+	 kf=(6210000000000000.0,0,0.98),
+)
+ 
+ 
+surface_reaction(
+	 id='H39Aiacid',
+	 equation='H+ + e- + **CH2O <=> **CH2OH',
+	 kf=(6210000000000.0,0,0.98),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H39Aiwater',
+	 equation='H2O + e- + **CH2O <=> **CH2OH + OH-',
+	 kf=(6210000000000.0,0,0.98),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H39Aiitafel',
+	 equation='*H + **CH2O <=> *CH2OH + * + *',
+	 kf=(6210000000000000.0,0,1.1),
+)
+ 
+ 
+surface_reaction(
+	 id='H39Aiiacid',
+	 equation='H+ + e- + **CH2O <=> *CH2OH + *',
+	 kf=(6210000000000.0,0,1.1),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H39Aiiwater',
+	 equation='H2O + e- + **CH2O <=> *CH2OH + * + OH-',
+	 kf=(6210000000000.0,0,1.1),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H38Atafel',
+	 equation='*H + *CHOH <=> *CH + H2O + *',
+	 kf=(6210000000000000.0,0,0.63),
+)
+ 
+ 
+surface_reaction(
+	 id='H38Aacid',
+	 equation='H+ + e- + *CHOH <=> *CH + H2O',
+	 kf=(6210000000000.0,0,0.63),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H38Awater',
+	 equation='e- + *CHOH <=> *CH + OH-',
+	 kf=(6210000000000.0,0,0.63),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H38Btafel',
+	 equation='*H + * + *CHOH <=> **CH2OH + *',
+	 kf=(6210000000000000.0,0,0.39),
+)
+ 
+ 
+surface_reaction(
+	 id='H38Bacid',
+	 equation='H+ + * + e- + *CHOH <=> **CH2OH',
+	 kf=(6210000000000.0,0,0.39),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H38Bwater',
+	 equation='H2O + * + e- + *CHOH <=> **CH2OH + OH-',
+	 kf=(6210000000000.0,0,0.39),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H39Btafel',
+	 equation='*H + **CH2O <=> *OCH3 + * + *',
+	 kf=(6210000000000000.0,0,0.634),
+)
+ 
+ 
+surface_reaction(
+	 id='H39Bacid',
+	 equation='H+ + e- + **CH2O <=> *OCH3 + *',
+	 kf=(6210000000000.0,0,0.634),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H39Bwater',
+	 equation='H2O + e- + **CH2O <=> *OCH3 + * + OH-',
+	 kf=(6210000000000.0,0,0.634),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='HD42Btafel',
+	 equation='*H + *OCH3 <=> CH3OH + * + *',
+	 kf=(6210000000000000.0,0,1.03),
+)
+ 
+ 
+surface_reaction(
+	 id='HD42Bacid',
+	 equation='H+ + e- + *OCH3 <=> CH3OH + *',
+	 kf=(6210000000000.0,0,1.03),
+	 beta=0.45
+)
+ 
+ 
+surface_reaction(
+	 id='HD42Bwater',
+	 equation='H2O + e- + *OCH3 <=> CH3OH + * + OH-',
+	 kf=(6210000000000.0,0,1.03),
+	 beta=0.45
+)
+ 
+ 
+surface_reaction(
+	 id='H41Atafel',
+	 equation='*H + *CH2OH <=> *CH2 + H2O + *',
+	 kf=(6210000000000000.0,0,1.18),
+)
+ 
+ 
+surface_reaction(
+	 id='H41Aacid',
+	 equation='H+ + e- + *CH2OH <=> *CH2 + H2O',
+	 kf=(6210000000000.0,0,1.18),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H41Awater',
+	 equation='e- + *CH2OH <=> *CH2 + OH-',
+	 kf=(6210000000000.0,0,1.18),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD41Atafel',
+	 equation='*H + **CH2OH <=> CH3OH + * + * + *',
+	 kf=(6210000000000000.0,0,0.42),
+)
+ 
+ 
+surface_reaction(
+	 id='HD41Aacid',
+	 equation='H+ + e- + **CH2OH <=> CH3OH + * + *',
+	 kf=(6210000000000.0,0,0.42),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD41Awater',
+	 equation='H2O + e- + **CH2OH <=> CH3OH + * + * + OH-',
+	 kf=(6210000000000.0,0,0.42),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD42Atafel',
+	 equation='*H + *OCH3 <=> CH4 + *O + *',
+	 kf=(6210000000000000.0,0,2.58),
+)
+ 
+ 
+surface_reaction(
+	 id='HD42Aacid',
+	 equation='H+ + e- + *OCH3 <=> CH4 + *O',
+	 kf=(6210000000000.0,0,2.58),
+	 beta=0.4
+)
+ 
+ 
+surface_reaction(
+	 id='HD42Awater',
+	 equation='H2O + e- + *OCH3 <=> CH4 + *O + OH-',
+	 kf=(6210000000000.0,0,2.58),
+	 beta=0.4
+)
+ 
+ 
+surface_reaction(
+	 id='H05Btafel',
+	 equation='*H + *COH <=> *CHOH + *',
+	 kf=(6210000000000000.0,0,1.62),
+)
+ 
+ 
+surface_reaction(
+	 id='H05Bacid',
+	 equation='H+ + e- + *COH <=> *CHOH',
+	 kf=(6210000000000.0,0,1.62),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H05Bwater',
+	 equation='H2O + e- + *COH <=> *CHOH + OH-',
+	 kf=(6210000000000.0,0,1.62),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='C03Ai',
+	 equation='*CO + *CO <=> **OCCO',
+	 kf=(6000000000000000.0,0,1.06),
+)
+ 
+ 
+surface_reaction(
+	 id='C03Aii',
+	 equation='*CO + *CO <=> **(CO)2',
+	 kf=(6000000000000000.0,0,0.53),
+)
+ 
+ 
+surface_reaction(
+	 id='H16Aitafel',
+	 equation='*H + **OCCO <=> **COHCO + *',
+	 kf=(6210000000000000.0,0,0.593),
+)
+ 
+ 
+surface_reaction(
+	 id='H16Aiacid',
+	 equation='H+ + e- + **OCCO <=> **COHCO',
+	 kf=(6210000000000.0,0,0.593),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H16Aiwater',
+	 equation='H2O + e- + **OCCO <=> **COHCO + OH-',
+	 kf=(6210000000000.0,0,0.593),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H14Aitafel',
+	 equation='*H + **COHCO <=> *CCO + H2O + * + *',
+	 kf=(6210000000000000.0,0,0.35),
+)
+ 
+ 
+surface_reaction(
+	 id='H14Aiacid',
+	 equation='H+ + e- + **COHCO <=> *CCO + H2O + *',
+	 kf=(6210000000000.0,0,0.35),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H14Aiwater',
+	 equation='e- + **COHCO <=> *CCO + * + OH-',
+	 kf=(6210000000000.0,0,0.35),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H14Aiitafel',
+	 equation='*H + **COCOH <=> *CCO + H2O + * + *',
+	 kf=(6210000000000000.0,0,0.28),
+)
+ 
+ 
+surface_reaction(
+	 id='H14Aiiacid',
+	 equation='H+ + e- + **COCOH <=> *CCO + H2O + *',
+	 kf=(6210000000000.0,0,0.28),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H14Aiiwater',
+	 equation='e- + **COCOH <=> *CCO + * + OH-',
+	 kf=(6210000000000.0,0,0.28),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H16Aiitafel',
+	 equation='*H + **(CO)2 <=> **COCOH + *',
+	 kf=(6210000000000000.0,0,0.64),
+)
+ 
+ 
+surface_reaction(
+	 id='H16Aiiacid',
+	 equation='H+ + e- + **(CO)2 <=> **COCOH',
+	 kf=(6210000000000.0,0,0.64),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H16Aiiwater',
+	 equation='H2O + e- + **(CO)2 <=> **COCOH + OH-',
+	 kf=(6210000000000.0,0,0.64),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H19Atafel',
+	 equation='*H + *CCO <=> *CHCO + *',
+	 kf=(6210000000000000.0,0,1.024),
+)
+ 
+ 
+surface_reaction(
+	 id='H19Aacid',
+	 equation='H+ + e- + *CCO <=> *CHCO',
+	 kf=(6210000000000.0,0,1.024),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H19Awater',
+	 equation='H2O + e- + *CCO <=> *CHCO + OH-',
+	 kf=(6210000000000.0,0,1.024),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H58Atafel',
+	 equation='*H + * + * + *CHCO <=> ***CH2CO + *',
+	 kf=(6210000000000000.0,0,0.998),
+)
+ 
+ 
+surface_reaction(
+	 id='H58Aacid',
+	 equation='H+ + * + * + e- + *CHCO <=> ***CH2CO',
+	 kf=(6210000000000.0,0,0.998),
+	 beta=0.47
+)
+ 
+ 
+surface_reaction(
+	 id='H58Awater',
+	 equation='H2O + * + * + e- + *CHCO <=> ***CH2CO + OH-',
+	 kf=(6210000000000.0,0,0.998),
+	 beta=0.47
+)
+ 
+ 
+surface_reaction(
+	 id='H59Atafel',
+	 equation='*H + ***CH2CO <=> **OCHCH2 + * + *',
+	 kf=(6210000000000000.0,0,0.605),
+)
+ 
+ 
+surface_reaction(
+	 id='H59Aacid',
+	 equation='H+ + e- + ***CH2CO <=> **OCHCH2 + *',
+	 kf=(6210000000000.0,0,0.605),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H59Awater',
+	 equation='H2O + e- + ***CH2CO <=> **OCHCH2 + * + OH-',
+	 kf=(6210000000000.0,0,0.605),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H53Btafel',
+	 equation='*H + **OCHCH2 <=> **CH2OCH2 + *',
+	 kf=(6210000000000000.0,0,0.833),
+)
+ 
+ 
+surface_reaction(
+	 id='H53Bacid',
+	 equation='H+ + e- + **OCHCH2 <=> **CH2OCH2',
+	 kf=(6210000000000.0,0,0.833),
+	 beta=0.52
+)
+ 
+ 
+surface_reaction(
+	 id='H53Bwater',
+	 equation='H2O + e- + **OCHCH2 <=> **CH2OCH2 + OH-',
+	 kf=(6210000000000.0,0,0.833),
+	 beta=0.52
+)
+ 
+ 
+surface_reaction(
+	 id='H80Atafel',
+	 equation='*H + **CHCH2O <=> **CH2OCH2 + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H80Aacid',
+	 equation='H+ + e- + **CHCH2O <=> **CH2OCH2',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H80Awater',
+	 equation='H2O + e- + **CHCH2O <=> **CH2OCH2 + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H79Atafel',
+	 equation='*H + **CHOHCH2O <=> **CHCH2O + H2O + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H79Aacid',
+	 equation='H+ + e- + **CHOHCH2O <=> **CHCH2O + H2O',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H79Awater',
+	 equation='e- + **CHOHCH2O <=> **CHCH2O + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H71Atafel',
+	 equation='*H + **COHCH2O <=> **CHOHCH2O + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H71Aacid',
+	 equation='H+ + e- + **COHCH2O <=> **CHOHCH2O',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H71Awater',
+	 equation='H2O + e- + **COHCH2O <=> **CHOHCH2O + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='O71A',
+	 equation='**COHCH2O <=> *COHCH2O + *',
+	 kf=(6210000000000.0,0,0.3),
+)
+ 
+ 
+surface_reaction(
+	 id='HD77Atafel',
+	 equation='*H + *COHCH2O <=> CH3COOH + * + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='HD77Aacid',
+	 equation='H+ + e- + *COHCH2O <=> CH3COOH + *',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD77Awater',
+	 equation='H2O + e- + *COHCH2O <=> CH3COOH + * + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H70Atafel',
+	 equation='*H + **COCH2O <=> **COHCH2O + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H70Aacid',
+	 equation='H+ + e- + **COCH2O <=> **COHCH2O',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H70Awater',
+	 equation='H2O + e- + **COCH2O <=> **COHCH2O + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='O69A',
+	 equation='**COCHOH <=> **COCH2O',
+	 kf=(6210000000000.0,0,0.19),
+)
+ 
+ 
+surface_reaction(
+	 id='H17Aitafel',
+	 equation='*H + * + *COCHO <=> **COCHOH + *',
+	 kf=(6210000000000000.0,0,0.78),
+)
+ 
+ 
+surface_reaction(
+	 id='H17Aiacid',
+	 equation='H+ + * + e- + *COCHO <=> **COCHOH',
+	 kf=(6210000000000.0,0,0.78),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H17Aiwater',
+	 equation='H2O + * + e- + *COCHO <=> **COCHOH + OH-',
+	 kf=(6210000000000.0,0,0.78),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H16Bitafel',
+	 equation='*H + **(CO)2 <=> *COCHO + * + *',
+	 kf=(6210000000000000.0,0,0.97),
+)
+ 
+ 
+surface_reaction(
+	 id='H16Biacid',
+	 equation='H+ + e- + **(CO)2 <=> *COCHO + *',
+	 kf=(6210000000000.0,0,0.97),
+	 beta=0.51
+)
+ 
+ 
+surface_reaction(
+	 id='H16Biwater',
+	 equation='H2O + e- + **(CO)2 <=> *COCHO + * + OH-',
+	 kf=(6210000000000.0,0,0.97),
+	 beta=0.51
+)
+ 
+ 
+surface_reaction(
+	 id='H16Biitafel',
+	 equation='*H + **(CO)2 <=> **COCHO + *',
+	 kf=(6210000000000000.0,0,1.31),
+)
+ 
+ 
+surface_reaction(
+	 id='H16Biiacid',
+	 equation='H+ + e- + **(CO)2 <=> **COCHO',
+	 kf=(6210000000000.0,0,1.31),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H16Biiwater',
+	 equation='H2O + e- + **(CO)2 <=> **COCHO + OH-',
+	 kf=(6210000000000.0,0,1.31),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H17Aiitafel',
+	 equation='*H + **COCHO <=> **COCHOH + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H17Aiiacid',
+	 equation='H+ + e- + **COCHO <=> **COCHOH',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H17Aiiwater',
+	 equation='H2O + e- + **COCHO <=> **COCHOH + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='C03Bi',
+	 equation='*CHO + *CO <=> *COCHO + *',
+	 kf=(6000000000000000.0,0,0.77),
+)
+ 
+ 
+surface_reaction(
+	 id='C03Bii',
+	 equation='*CHO + *CO <=> **COCHO',
+	 kf=(6000000000000000.0,0,1.47),
+)
+ 
+ 
+surface_reaction(
+	 id='H51Aitafel',
+	 equation='*H + **OCHCH <=> **OCHCH2 + *',
+	 kf=(6210000000000000.0,0,0.748),
+)
+ 
+ 
+surface_reaction(
+	 id='H51Aiacid',
+	 equation='H+ + e- + **OCHCH <=> **OCHCH2',
+	 kf=(6210000000000.0,0,0.748),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H51Aiwater',
+	 equation='H2O + e- + **OCHCH <=> **OCHCH2 + OH-',
+	 kf=(6210000000000.0,0,0.748),
+	 beta=0.48
+)
+ 
+ 
+surface_reaction(
+	 id='H49Btafel',
+	 equation='*H + **CHOCHOH <=> **OCHCH + H2O + *',
+	 kf=(6210000000000000.0,0,0.924),
+)
+ 
+ 
+surface_reaction(
+	 id='H49Bacid',
+	 equation='H+ + e- + **CHOCHOH <=> **OCHCH + H2O',
+	 kf=(6210000000000.0,0,0.924),
+	 beta=0.46
+)
+ 
+ 
+surface_reaction(
+	 id='H49Bwater',
+	 equation='e- + **CHOCHOH <=> **OCHCH + OH-',
+	 kf=(6210000000000.0,0,0.924),
+	 beta=0.46
+)
+ 
+ 
+surface_reaction(
+	 id='H49Ctafel',
+	 equation='*H + **CHOCHOH <=> **CHOCH2OH + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H49Cacid',
+	 equation='H+ + e- + **CHOCHOH <=> **CHOCH2OH',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H49Cwater',
+	 equation='H2O + e- + **CHOCHOH <=> **CHOCH2OH + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H73Btafel',
+	 equation='*H + **CHOCH2OH <=> *OCHCH2 + H2O + * + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H73Bacid',
+	 equation='H+ + e- + **CHOCH2OH <=> *OCHCH2 + H2O + *',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H73Bwater',
+	 equation='e- + **CHOCH2OH <=> *OCHCH2 + * + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='O53A',
+	 equation='**OCHCH2 <=> *OCHCH2 + *',
+	 kf=(6210000000000.0,0,0.3),
+)
+ 
+ 
+surface_reaction(
+	 id='H51Aiitafel',
+	 equation='*H + **OCHCH <=> *OCHCH2 + * + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H51Aiiacid',
+	 equation='H+ + e- + **OCHCH <=> *OCHCH2 + *',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H51Aiiwater',
+	 equation='H2O + e- + **OCHCH <=> *OCHCH2 + * + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='C04A',
+	 equation='*CHO + *CHO <=> **CHOCHO',
+	 kf=(6000000000000000.0,0,0.22),
+)
+ 
+ 
+surface_reaction(
+	 id='H48Atafel',
+	 equation='*H + **CHOCHO <=> **CHOCHOH + *',
+	 kf=(6210000000000000.0,0,0.97),
+)
+ 
+ 
+surface_reaction(
+	 id='H48Aacid',
+	 equation='H+ + e- + **CHOCHO <=> **CHOCHOH',
+	 kf=(6210000000000.0,0,0.97),
+	 beta=0.47
+)
+ 
+ 
+surface_reaction(
+	 id='H48Awater',
+	 equation='H2O + e- + **CHOCHO <=> **CHOCHOH + OH-',
+	 kf=(6210000000000.0,0,0.97),
+	 beta=0.47
+)
+ 
+ 
+surface_reaction(
+	 id='D45A',
+	 equation='**CH2OCH2 <=> C2H4 + *O + *',
+	 kf=(6000000000000000.0,0,1.01),
+)
+ 
+ 
+surface_reaction(
+	 id='H45Btafel',
+	 equation='*H + **CH2OCH2 <=> **OHCH2CH2 + *',
+	 kf=(6210000000000000.0,0,0.844),
+)
+ 
+ 
+surface_reaction(
+	 id='H45Bacid',
+	 equation='H+ + e- + **CH2OCH2 <=> **OHCH2CH2',
+	 kf=(6210000000000.0,0,0.844),
+	 beta=0.49
+)
+ 
+ 
+surface_reaction(
+	 id='H45Bwater',
+	 equation='H2O + e- + **CH2OCH2 <=> **OHCH2CH2 + OH-',
+	 kf=(6210000000000.0,0,0.844),
+	 beta=0.49
+)
+ 
+ 
+surface_reaction(
+	 id='D47A',
+	 equation='**OHCH2CH2 <=> C2H4 + *OH + *',
+	 kf=(6000000000000000.0,0,0.39),
+)
+ 
+ 
+surface_reaction(
+	 id='CD35A',
+	 equation='*CH2 + *CH2 <=> C2H4 + * + *',
+	 kf=(6000000000000000.0,0,0.46),
+)
+ 
+ 
+surface_reaction(
+	 id='H92Atafel',
+	 equation='*H + *O <=> *OH + *',
+	 kf=(6210000000000000.0,0,0.3),
+)
+ 
+ 
+surface_reaction(
+	 id='H92Aacid',
+	 equation='H+ + e- + *O <=> *OH',
+	 kf=(6210000000000.0,0,0.3),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H92Awater',
+	 equation='H2O + e- + *O <=> *OH + OH-',
+	 kf=(6210000000000.0,0,0.3),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD93Atafel',
+	 equation='*H + *OH => H2O + * + *',
+	 kf=(6210000000000000.0,0,0.3),
+)
+ 
+ 
+surface_reaction(
+	 id='HD93Aacid',
+	 equation='H+ + e- + *OH => H2O + *',
+	 kf=(6210000000000.0,0,0.3),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD93Awater',
+	 equation='e- + *OH => * + OH-',
+	 kf=(6210000000000.0,0,0.3),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H53Aiitafel',
+	 equation='*H + * + *OCHCH2 <=> **CHOHCH2 + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H53Aiiacid',
+	 equation='H+ + * + e- + *OCHCH2 <=> **CHOHCH2',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H53Aiiwater',
+	 equation='H2O + * + e- + *OCHCH2 <=> **CHOHCH2 + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H54Btafel',
+	 equation='*H + **CHOHCH2 <=> *CH2CH2OH + * + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='H54Bacid',
+	 equation='H+ + e- + **CHOHCH2 <=> *CH2CH2OH + *',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='H54Bwater',
+	 equation='H2O + e- + **CHOHCH2 <=> *CH2CH2OH + * + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD47Aiitafel',
+	 equation='*H + *CH2CH2OH <=> CH3CH2OH + * + *',
+	 kf=(6210000000000000.0,0,0.6),
+)
+ 
+ 
+surface_reaction(
+	 id='HD47Aiiacid',
+	 equation='H+ + e- + *CH2CH2OH <=> CH3CH2OH + *',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD47Aiiwater',
+	 equation='H2O + e- + *CH2CH2OH <=> CH3CH2OH + * + OH-',
+	 kf=(6210000000000.0,0,0.6),
+	 beta=0.5
+)
+ 
+ 
+surface_reaction(
+	 id='HD47Aitafel',
+	 equation='*H + **OHCH2CH2 <=> CH3CH2OH + * + * + *',
+	 kf=(6210000000000000.0,0,0.75),
+)
+ 
+ 
+surface_reaction(
+	 id='HD47Aiacid',
+	 equation='H+ + e- + **OHCH2CH2 <=> CH3CH2OH + * + *',
+	 kf=(6210000000000.0,0,0.75),
+	 beta=0.52
+)
+ 
+ 
+surface_reaction(
+	 id='HD47Aiwater',
+	 equation='H2O + e- + **OHCH2CH2 <=> CH3CH2OH + * + * + OH-',
+	 kf=(6210000000000.0,0,0.75),
+	 beta=0.52
+)
+ 
+ 
+surface_reaction(
+	 id='H53Aitafel',
+	 equation='*H + **OCHCH2 <=> **OHCHCH2 + *',
+	 kf=(6210000000000000.0,0,0.895),
+)
+ 
+ 
+surface_reaction(
+	 id='H53Aiacid',
+	 equation='H+ + e- + **OCHCH2 <=> **OHCHCH2',
+	 kf=(6210000000000.0,0,0.895),
+	 beta=0.49
+)
+ 
+ 
+surface_reaction(
+	 id='H53Aiwater',
+	 equation='H2O + e- + **OCHCH2 <=> **OHCHCH2 + OH-',
+	 kf=(6210000000000.0,0,0.895),
+	 beta=0.49
+)
+ 
+ 
+surface_reaction(
+	 id='H54Atafel',
+	 equation='*H + **OHCHCH2 <=> **CHCH2 + H2O + *',
+	 kf=(6210000000000000.0,0,1.099),
+)
+ 
+ 
+surface_reaction(
+	 id='H54Aacid',
+	 equation='H+ + e- + **OHCHCH2 <=> **CHCH2 + H2O',
+	 kf=(6210000000000.0,0,1.099),
+	 beta=0.53
+)
+ 
+ 
+surface_reaction(
+	 id='H54Awater',
+	 equation='e- + **OHCHCH2 <=> **CHCH2 + OH-',
+	 kf=(6210000000000.0,0,1.099),
+	 beta=0.53
+)
+ 
+ 
+surface_reaction(
+	 id='HD55Atafel',
+	 equation='*H + **CHCH2 <=> C2H4 + * + * + *',
+	 kf=(6210000000000000.0,0,0.495),
+)
+ 
+ 
+surface_reaction(
+	 id='HD55Aacid',
+	 equation='H+ + e- + **CHCH2 <=> C2H4 + * + *',
+	 kf=(6210000000000.0,0,0.495),
+	 beta=0.47
+)
+ 
+ 
+surface_reaction(
+	 id='HD55Awater',
+	 equation='H2O + e- + **CHCH2 <=> C2H4 + * + * + OH-',
+	 kf=(6210000000000.0,0,0.495),
+	 beta=0.47
+)

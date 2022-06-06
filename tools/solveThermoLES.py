@@ -2,7 +2,7 @@
 """
 Created on Tue May 11 17:20:15 2021
 
-@author: SRIH01
+@author: Simon Rihm
 """
 
 # Imports

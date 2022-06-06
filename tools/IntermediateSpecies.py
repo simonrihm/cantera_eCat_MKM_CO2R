@@ -2,7 +2,7 @@
 """
 Created on Wed Apr 21 20:34:19 2021
 
-@author: Simon
+@author: Simon Rihm
 """
 
 surfBond = '*'

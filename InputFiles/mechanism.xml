@@ -139,7 +139,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">0.002</h0>
+           <h0 units="eV">0.038</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -153,7 +153,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.542</h0>
+           <h0 units="eV">-0.48</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -167,7 +167,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.063</h0>
+           <h0 units="eV">-1.06</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -181,7 +181,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">0.722</h0>
+           <h0 units="eV">0.75</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -209,7 +209,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.628</h0>
+           <h0 units="eV">-1.619</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -223,7 +223,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.452</h0>
+           <h0 units="eV">-2.43</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -237,7 +237,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">0.001</h0>
+           <h0 units="eV">0.019</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -251,7 +251,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-4.072</h0>
+           <h0 units="eV">-4.01</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -265,7 +265,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.235</h0>
+           <h0 units="eV">-1.3</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -279,7 +279,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-3.855</h0>
+           <h0 units="eV">-3.85</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -293,7 +293,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-3.64</h0>
+           <h0 units="eV">-3.65</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -307,7 +307,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.808</h0>
+           <h0 units="eV">-1.83</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -321,7 +321,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-4.125</h0>
+           <h0 units="eV">-4.15</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -335,7 +335,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.878</h0>
+           <h0 units="eV">-1.86</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -363,7 +363,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">0.123</h0>
+           <h0 units="eV">0.129</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -377,7 +377,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.478</h0>
+           <h0 units="eV">-2.37</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -391,7 +391,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-3.494</h0>
+           <h0 units="eV">-3.401</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -405,7 +405,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.522</h0>
+           <h0 units="eV">-1.55</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -419,7 +419,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-3.75</h0>
+           <h0 units="eV">-3.69</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -433,7 +433,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-3.747</h0>
+           <h0 units="eV">-3.68</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -447,7 +447,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-4.117</h0>
+           <h0 units="eV">-4.041</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -461,7 +461,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.779</h0>
+           <h0 units="eV">-0.791</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -475,7 +475,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">1.506</h0>
+           <h0 units="eV">1.498</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -489,7 +489,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">1.14</h0>
+           <h0 units="eV">1.117</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -503,7 +503,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">1.193</h0>
+           <h0 units="eV">1.216</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -517,7 +517,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">0.691</h0>
+           <h0 units="eV">0.675</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -531,7 +531,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.907</h0>
+           <h0 units="eV">-0.911</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -546,7 +546,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.171</h0>
+           <h0 units="eV">-1.122</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -560,7 +560,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.531</h0>
+           <h0 units="eV">-0.502</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -575,7 +575,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.888</h0>
+           <h0 units="eV">-0.823</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -589,7 +589,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.083</h0>
+           <h0 units="eV">-1.163</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -603,7 +603,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.625</h0>
+           <h0 units="eV">-1.553</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -617,7 +617,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.364</h0>
+           <h0 units="eV">-2.354</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -632,7 +632,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.048</h0>
+           <h0 units="eV">-2.09</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -647,7 +647,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.83</h0>
+           <h0 units="eV">-2.8</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -662,7 +662,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.852</h0>
+           <h0 units="eV">-1.871</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -676,7 +676,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.991</h0>
+           <h0 units="eV">-1.012</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -691,7 +691,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.502</h0>
+           <h0 units="eV">-2.681</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -705,7 +705,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.668</h0>
+           <h0 units="eV">-0.683</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -720,7 +720,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.64</h0>
+           <h0 units="eV">-0.634</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -735,7 +735,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.136</h0>
+           <h0 units="eV">-1.125</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -750,7 +750,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.111</h0>
+           <h0 units="eV">-1.046</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -765,7 +765,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.216</h0>
+           <h0 units="eV">-0.325</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -780,7 +780,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.915</h0>
+           <h0 units="eV">-2.974</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -795,7 +795,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.113</h0>
+           <h0 units="eV">-2.033</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -809,7 +809,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.428</h0>
+           <h0 units="eV">-1.333</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -824,7 +824,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.746</h0>
+           <h0 units="eV">-2.732</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -839,7 +839,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.231</h0>
+           <h0 units="eV">-2.132</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -853,7 +853,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.664</h0>
+           <h0 units="eV">-2.601</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -868,7 +868,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.542</h0>
+           <h0 units="eV">-2.521</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -883,7 +883,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.015</h0>
+           <h0 units="eV">-1.044</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -898,7 +898,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.595</h0>
+           <h0 units="eV">-2.643</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -913,7 +913,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-3.087</h0>
+           <h0 units="eV">-3.124</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -927,7 +927,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.476</h0>
+           <h0 units="eV">-1.525</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -942,7 +942,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.961</h0>
+           <h0 units="eV">-3.012</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -957,7 +957,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.995</h0>
+           <h0 units="eV">-0.997</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -971,7 +971,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-2.372</h0>
+           <h0 units="eV">-2.397</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -986,7 +986,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.243</h0>
+           <h0 units="eV">-1.306</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -1000,7 +1000,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-1.175</h0>
+           <h0 units="eV">-1.237</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -1015,7 +1015,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">-0.768</h0>
+           <h0 units="eV">-0.716</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -1030,7 +1030,7 @@
       <thermo>
         <const_cp Tmin="100.0" Tmax="5000.0">
            <t0 units="K">298.15</t0>
-           <h0 units="eV">1.723</h0>
+           <h0 units="eV">1.793</h0>
            <s0 units="J/mol/K">0</s0>
            <cp0 units="J/mol/K">0</cp0>
         </const_cp>
@@ -1053,18 +1053,62 @@
   </speciesData>
   <reactionData id="reaction_data">
 
+    <!-- reaction A98Bacid    -->
+    <reaction id="A98Bacid" reversible="yes" type="surface">
+      <equation>H+ + * + e- [=] *H</equation>
+      <rateCoeff>
+        <electrochem beta="0.8"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.500000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 *:1 e-:1</reactants>
+      <products>*H:1.0</products>
+    </reaction>
+
+    <!-- reaction A98Bwater    -->
+    <reaction id="A98Bwater" reversible="yes" type="surface">
+      <equation>H2O + * + e- [=] *H + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.540000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 *:1 e-:1</reactants>
+      <products>*H:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction A95A    -->
+    <reaction id="A95A" reversible="yes" type="surface">
+      <equation>* + H2O [=] *H2O</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*:1.0 H2O:1</reactants>
+      <products>*H2O:1.0</products>
+    </reaction>
+
     <!-- reaction O93A    -->
     <reaction id="O93A" reversible="yes" type="surface">
-      <equation>*H2O + e- [=] *H + OH-</equation>
+      <equation>e- + *H2O [=] *H + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4199999999999999"/>
+        <electrochem beta="0.42"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.680000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*H2O:1.0 e-:1</reactants>
+      <reactants>e-:1.0 *H2O:1</reactants>
       <products>*H:1.0 OH-:1</products>
     </reaction>
 
@@ -1072,9 +1116,8 @@
     <reaction id="HD96Atafel" reversible="yes" type="surface">
       <equation>*H + *H [=] H2 + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.800000</E>
         </Arrhenius>
@@ -1085,7 +1128,7 @@
 
     <!-- reaction HD96Aacid    -->
     <reaction id="HD96Aacid" reversible="yes" type="surface">
-      <equation>*H + e- + H+ [=] H2 + *</equation>
+      <equation>H+ + e- + *H [=] H2 + *</equation>
       <rateCoeff>
         <electrochem beta="1.0"/>
         <Arrhenius>
@@ -1094,13 +1137,13 @@
            <E units="eV">1.800000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*H:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 *H:1</reactants>
       <products>H2:1.0 *:1</products>
     </reaction>
 
     <!-- reaction HD96Awater    -->
     <reaction id="HD96Awater" reversible="yes" type="surface">
-      <equation>*H + e- + H2O [=] H2 + * + OH-</equation>
+      <equation>H2O + e- + *H [=] H2 + * + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.8"/>
         <Arrhenius>
@@ -1109,28 +1152,85 @@
            <E units="eV">1.530000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*H:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 *H:1</reactants>
       <products>H2:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction AH01Atafel    -->
+    <reaction id="AH01Atafel" reversible="yes" type="surface">
+      <equation>*H + * + CO2 [=] *COOH + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.920000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *:1 CO2:1</reactants>
+      <products>*COOH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction AH01Aacid    -->
+    <reaction id="AH01Aacid" reversible="yes" type="surface">
+      <equation>H+ + * + e- + CO2 [=] *COOH</equation>
+      <rateCoeff>
+        <electrochem beta="0.44"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.920000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 *:1 e-:1 CO2:1</reactants>
+      <products>*COOH:1.0</products>
+    </reaction>
+
+    <!-- reaction AH01Awater    -->
+    <reaction id="AH01Awater" reversible="yes" type="surface">
+      <equation>H2O + * + e- + CO2 [=] *COOH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.44"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.920000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 *:1 e-:1 CO2:1</reactants>
+      <products>*COOH:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction A13A    -->
+    <reaction id="A13A" reversible="yes" type="surface">
+      <equation>* + CO [=] *CO</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.200000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*:1.0 CO:1</reactants>
+      <products>*CO:1.0</products>
     </reaction>
 
     <!-- reaction H02Atafel    -->
     <reaction id="H02Atafel" reversible="yes" type="surface">
-      <equation>*COOH + *H [=] *CO + H2O + *</equation>
+      <equation>*H + *COOH [=] *CO + H2O + *</equation>
       <rateCoeff>
-        <electrochem beta="0.52"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.500000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*COOH:1.0 *H:1</reactants>
+      <reactants>*H:1.0 *COOH:1</reactants>
       <products>*CO:1.0 H2O:1 *:1</products>
     </reaction>
 
     <!-- reaction H02Aacid    -->
     <reaction id="H02Aacid" reversible="yes" type="surface">
-      <equation>*COOH + e- + H+ [=] *CO + H2O</equation>
+      <equation>H+ + e- + *COOH [=] *CO + H2O</equation>
       <rateCoeff>
         <electrochem beta="0.52"/>
         <Arrhenius>
@@ -1139,13 +1239,13 @@
            <E units="eV">0.500000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*COOH:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 *COOH:1</reactants>
       <products>*CO:1.0 H2O:1</products>
     </reaction>
 
     <!-- reaction H02Awater    -->
     <reaction id="H02Awater" reversible="yes" type="surface">
-      <equation>*COOH + e- [=] *CO + OH-</equation>
+      <equation>e- + *COOH [=] *CO + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.52"/>
         <Arrhenius>
@@ -1154,13 +1254,28 @@
            <E units="eV">0.500000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*COOH:1.0 e-:1</reactants>
+      <reactants>e-:1.0 *COOH:1</reactants>
       <products>*CO:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction A01A    -->
+    <reaction id="A01A" reversible="yes" type="surface">
+      <equation>* + e- + CO2 [=] *CO2-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.430000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*:1.0 e-:1 CO2:1</reactants>
+      <products>*CO2-:1.0</products>
     </reaction>
 
     <!-- reaction H06Aacid    -->
     <reaction id="H06Aacid" reversible="yes" type="surface">
-      <equation>*CO2- + H+ [=] *COOH</equation>
+      <equation>H+ + *CO2- [=] *COOH</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -1169,13 +1284,13 @@
            <E units="eV">0.370000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CO2-:1.0 H+:1</reactants>
+      <reactants>H+:1.0 *CO2-:1</reactants>
       <products>*COOH:1.0</products>
     </reaction>
 
     <!-- reaction H06Awater    -->
     <reaction id="H06Awater" reversible="yes" type="surface">
-      <equation>*CO2- + H2O [=] *COOH + OH-</equation>
+      <equation>H2O + *CO2- [=] *COOH + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -1184,28 +1299,85 @@
            <E units="eV">0.370000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CO2-:1.0 H2O:1</reactants>
+      <reactants>H2O:1.0 *CO2-:1</reactants>
       <products>*COOH:1.0 OH-:1</products>
     </reaction>
 
-    <!-- reaction H82Btafel    -->
-    <reaction id="H82Btafel" reversible="yes" type="surface">
-      <equation>*CO2 + *H [=] *OCHO + *</equation>
+    <!-- reaction A01B    -->
+    <reaction id="A01B" reversible="yes" type="surface">
+      <equation>* + CO2 [=] *CO2</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.430000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*:1.0 CO2:1</reactants>
+      <products>*CO2:1.0</products>
+    </reaction>
+
+    <!-- reaction AH01Btafel    -->
+    <reaction id="AH01Btafel" reversible="yes" type="surface">
+      <equation>*H + * + CO2 [=] *OCHO + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">1.000000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *:1 CO2:1</reactants>
+      <products>*OCHO:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction AH01Bacid    -->
+    <reaction id="AH01Bacid" reversible="yes" type="surface">
+      <equation>H+ + * + e- + CO2 [=] *OCHO</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
+           <E units="eV">1.000000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 *:1 e-:1 CO2:1</reactants>
+      <products>*OCHO:1.0</products>
+    </reaction>
+
+    <!-- reaction AH01Bwater    -->
+    <reaction id="AH01Bwater" reversible="yes" type="surface">
+      <equation>H2O + * + e- + CO2 [=] *OCHO + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.000000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 *:1 e-:1 CO2:1</reactants>
+      <products>*OCHO:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H82Btafel    -->
+    <reaction id="H82Btafel" reversible="yes" type="surface">
+      <equation>*H + *CO2 [=] *OCHO + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
            <E units="eV">0.800000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CO2:1.0 *H:1</reactants>
+      <reactants>*H:1.0 *CO2:1</reactants>
       <products>*OCHO:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H82Bacid    -->
     <reaction id="H82Bacid" reversible="yes" type="surface">
-      <equation>*CO2 + e- + H+ [=] *OCHO</equation>
+      <equation>H+ + e- + *CO2 [=] *OCHO</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -1214,13 +1386,13 @@
            <E units="eV">0.800000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CO2:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 *CO2:1</reactants>
       <products>*OCHO:1.0</products>
     </reaction>
 
     <!-- reaction H82Bwater    -->
     <reaction id="H82Bwater" reversible="yes" type="surface">
-      <equation>*CO2 + e- + H2O [=] *OCHO + OH-</equation>
+      <equation>H2O + e- + *CO2 [=] *OCHO + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -1229,28 +1401,27 @@
            <E units="eV">0.800000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CO2:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 *CO2:1</reactants>
       <products>*OCHO:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction HD07Atafel    -->
     <reaction id="HD07Atafel" reversible="yes" type="surface">
-      <equation>*OCHO + *H [=] HCOOH + * + *</equation>
+      <equation>*H + *OCHO [=] HCOOH + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">1.500000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCHO:1.0 *H:1</reactants>
+      <reactants>*H:1.0 *OCHO:1</reactants>
       <products>HCOOH:1.0 *:2</products>
     </reaction>
 
     <!-- reaction HD07Aacid    -->
     <reaction id="HD07Aacid" reversible="yes" type="surface">
-      <equation>*OCHO + e- + H+ [=] HCOOH + *</equation>
+      <equation>H+ + e- + *OCHO [=] HCOOH + *</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -1259,13 +1430,13 @@
            <E units="eV">1.500000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCHO:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 *OCHO:1</reactants>
       <products>HCOOH:1.0 *:1</products>
     </reaction>
 
     <!-- reaction HD07Awater    -->
     <reaction id="HD07Awater" reversible="yes" type="surface">
-      <equation>*OCHO + e- + H2O [=] HCOOH + * + OH-</equation>
+      <equation>H2O + e- + *OCHO [=] HCOOH + * + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -1274,28 +1445,247 @@
            <E units="eV">1.500000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCHO:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 *OCHO:1</reactants>
       <products>HCOOH:1.0 *:1 OH-:1</products>
     </reaction>
 
-    <!-- reaction HD36Atafel    -->
-    <reaction id="HD36Atafel" reversible="yes" type="surface">
-      <equation>*CH3 + *H [=] CH4 + * + *</equation>
+    <!-- reaction H03Btafel    -->
+    <reaction id="H03Btafel" reversible="yes" type="surface">
+      <equation>*H + *CO [=] *COH + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.916000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *CO:1</reactants>
+      <products>*COH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H03Bacid    -->
+    <reaction id="H03Bacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *CO [=] *COH</equation>
+      <rateCoeff>
+        <electrochem beta="0.46"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.916000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *CO:1</reactants>
+      <products>*COH:1.0</products>
+    </reaction>
+
+    <!-- reaction H03Bwater    -->
+    <reaction id="H03Bwater" reversible="yes" type="surface">
+      <equation>H2O + e- + *CO [=] *COH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.46"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.916000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *CO:1</reactants>
+      <products>*COH:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H05Atafel    -->
+    <reaction id="H05Atafel" reversible="yes" type="surface">
+      <equation>*H + *COH [=] *C + H2O + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">1.002000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *COH:1</reactants>
+      <products>*C:1.0 H2O:1 *:1</products>
+    </reaction>
+
+    <!-- reaction H05Aacid    -->
+    <reaction id="H05Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *COH [=] *C + H2O</equation>
+      <rateCoeff>
+        <electrochem beta="0.46"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.002000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *COH:1</reactants>
+      <products>*C:1.0 H2O:1</products>
+    </reaction>
+
+    <!-- reaction H05Awater    -->
+    <reaction id="H05Awater" reversible="yes" type="surface">
+      <equation>e- + *COH [=] *C + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.46"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.002000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>e-:1.0 *COH:1</reactants>
+      <products>*C:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H33Atafel    -->
+    <reaction id="H33Atafel" reversible="yes" type="surface">
+      <equation>*H + *C [=] *CH + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.835000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *C:1</reactants>
+      <products>*CH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H33Aacid    -->
+    <reaction id="H33Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *C [=] *CH</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
+           <E units="eV">0.835000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *C:1</reactants>
+      <products>*CH:1.0</products>
+    </reaction>
+
+    <!-- reaction H33Awater    -->
+    <reaction id="H33Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + *C [=] *CH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.835000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *C:1</reactants>
+      <products>*CH:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H34Atafel    -->
+    <reaction id="H34Atafel" reversible="yes" type="surface">
+      <equation>*H + *CH [=] *CH2 + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.655000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *CH:1</reactants>
+      <products>*CH2:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H34Aacid    -->
+    <reaction id="H34Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *CH [=] *CH2</equation>
+      <rateCoeff>
+        <electrochem beta="0.49"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.655000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *CH:1</reactants>
+      <products>*CH2:1.0</products>
+    </reaction>
+
+    <!-- reaction H34Awater    -->
+    <reaction id="H34Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + *CH [=] *CH2 + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.49"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.655000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *CH:1</reactants>
+      <products>*CH2:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H35Atafel    -->
+    <reaction id="H35Atafel" reversible="yes" type="surface">
+      <equation>*H + *CH2 [=] *CH3 + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.690000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *CH2:1</reactants>
+      <products>*CH3:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H35Aacid    -->
+    <reaction id="H35Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *CH2 [=] *CH3</equation>
+      <rateCoeff>
+        <electrochem beta="0.49"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.690000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *CH2:1</reactants>
+      <products>*CH3:1.0</products>
+    </reaction>
+
+    <!-- reaction H35Awater    -->
+    <reaction id="H35Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + *CH2 [=] *CH3 + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.49"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.690000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *CH2:1</reactants>
+      <products>*CH3:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction HD36Atafel    -->
+    <reaction id="HD36Atafel" reversible="yes" type="surface">
+      <equation>*H + *CH3 [=] CH4 + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
            <E units="eV">0.790000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CH3:1.0 *H:1</reactants>
+      <reactants>*H:1.0 *CH3:1</reactants>
       <products>CH4:1.0 *:2</products>
     </reaction>
 
     <!-- reaction HD36Aacid    -->
     <reaction id="HD36Aacid" reversible="yes" type="surface">
-      <equation>*CH3 + e- + H+ [=] CH4 + *</equation>
+      <equation>H+ + e- + *CH3 [=] CH4 + *</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -1304,13 +1694,13 @@
            <E units="eV">0.790000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CH3:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 *CH3:1</reactants>
       <products>CH4:1.0 *:1</products>
     </reaction>
 
     <!-- reaction HD36Awater    -->
     <reaction id="HD36Awater" reversible="yes" type="surface">
-      <equation>*CH3 + e- + H2O [=] CH4 + * + OH-</equation>
+      <equation>H2O + e- + *CH3 [=] CH4 + * + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -1319,8 +1709,96 @@
            <E units="eV">0.790000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CH3:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 *CH3:1</reactants>
       <products>CH4:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H03Atafel    -->
+    <reaction id="H03Atafel" reversible="yes" type="surface">
+      <equation>*H + *CO [=] *CHO + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.641000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *CO:1</reactants>
+      <products>*CHO:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H03Aacid    -->
+    <reaction id="H03Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *CO [=] *CHO</equation>
+      <rateCoeff>
+        <electrochem beta="0.53"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.641000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *CO:1</reactants>
+      <products>*CHO:1.0</products>
+    </reaction>
+
+    <!-- reaction H03Awater    -->
+    <reaction id="H03Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + *CO [=] *CHO + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.53"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.641000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *CO:1</reactants>
+      <products>*CHO:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H04Btafel    -->
+    <reaction id="H04Btafel" reversible="yes" type="surface">
+      <equation>*H + * + *CHO [=] **CH2O + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.490000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *:1 *CHO:1</reactants>
+      <products>**CH2O:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H04Bacid    -->
+    <reaction id="H04Bacid" reversible="yes" type="surface">
+      <equation>H+ + * + e- + *CHO [=] **CH2O</equation>
+      <rateCoeff>
+        <electrochem beta="0.51"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.490000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 *:1 e-:1 *CHO:1</reactants>
+      <products>**CH2O:1.0</products>
+    </reaction>
+
+    <!-- reaction H04Bwater    -->
+    <reaction id="H04Bwater" reversible="yes" type="surface">
+      <equation>H2O + * + e- + *CHO [=] **CH2O + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.51"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.490000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 *:1 e-:1 *CHO:1</reactants>
+      <products>**CH2O:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction D39A    -->
@@ -1337,1441 +1815,111 @@
       <products>CH2O:1.0 *:2</products>
     </reaction>
 
-    <!-- reaction H38Atafel    -->
-    <reaction id="H38Atafel" reversible="yes" type="surface">
-      <equation>*CHOH + *H [=] *CH + H2O + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.630000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHOH:1.0 *H:1</reactants>
-      <products>*CH:1.0 H2O:1 *:1</products>
-    </reaction>
-
-    <!-- reaction H38Aacid    -->
-    <reaction id="H38Aacid" reversible="yes" type="surface">
-      <equation>*CHOH + e- + H+ [=] *CH + H2O</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.630000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHOH:1.0 e-:1 H+:1</reactants>
-      <products>*CH:1.0 H2O:1</products>
-    </reaction>
-
-    <!-- reaction H38Awater    -->
-    <reaction id="H38Awater" reversible="yes" type="surface">
-      <equation>*CHOH + e- [=] *CH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.630000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHOH:1.0 e-:1</reactants>
-      <products>*CH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H38Btafel    -->
-    <reaction id="H38Btafel" reversible="yes" type="surface">
-      <equation>*CHOH + * + *H [=] **CH2OH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.390000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHOH:1.0 *:1 *H:1</reactants>
-      <products>**CH2OH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H38Bacid    -->
-    <reaction id="H38Bacid" reversible="yes" type="surface">
-      <equation>*CHOH + e- + * + H+ [=] **CH2OH</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.390000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHOH:1.0 e-:1 *:1 H+:1</reactants>
-      <products>**CH2OH:1.0</products>
-    </reaction>
-
-    <!-- reaction H38Bwater    -->
-    <reaction id="H38Bwater" reversible="yes" type="surface">
-      <equation>*CHOH + e- + * + H2O [=] **CH2OH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.390000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHOH:1.0 e-:1 *:1 H2O:1</reactants>
-      <products>**CH2OH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction HD42Btafel    -->
-    <reaction id="HD42Btafel" reversible="yes" type="surface">
-      <equation>*OCH3 + *H [=] CH3OH + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.45"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.030000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*OCH3:1.0 *H:1</reactants>
-      <products>CH3OH:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction HD42Bacid    -->
-    <reaction id="HD42Bacid" reversible="yes" type="surface">
-      <equation>*OCH3 + e- + H+ [=] CH3OH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.45"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.030000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*OCH3:1.0 e-:1 H+:1</reactants>
-      <products>CH3OH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction HD42Bwater    -->
-    <reaction id="HD42Bwater" reversible="yes" type="surface">
-      <equation>*OCH3 + e- + H2O [=] CH3OH + * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.45"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.030000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*OCH3:1.0 e-:1 H2O:1</reactants>
-      <products>CH3OH:1.0 *:1 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H41Atafel    -->
-    <reaction id="H41Atafel" reversible="yes" type="surface">
-      <equation>*CH2OH + *H [=] *CH2 + H2O + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.180000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2OH:1.0 *H:1</reactants>
-      <products>*CH2:1.0 H2O:1 *:1</products>
-    </reaction>
-
-    <!-- reaction H41Aacid    -->
-    <reaction id="H41Aacid" reversible="yes" type="surface">
-      <equation>*CH2OH + e- + H+ [=] *CH2 + H2O</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.180000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2OH:1.0 e-:1 H+:1</reactants>
-      <products>*CH2:1.0 H2O:1</products>
-    </reaction>
-
-    <!-- reaction H41Awater    -->
-    <reaction id="H41Awater" reversible="yes" type="surface">
-      <equation>*CH2OH + e- [=] *CH2 + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.180000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2OH:1.0 e-:1</reactants>
-      <products>*CH2:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction HD41Atafel    -->
-    <reaction id="HD41Atafel" reversible="yes" type="surface">
-      <equation>**CH2OH + *H [=] CH3OH + * + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.420000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CH2OH:1.0 *H:1</reactants>
-      <products>CH3OH:1.0 *:3</products>
-    </reaction>
-
-    <!-- reaction HD41Aacid    -->
-    <reaction id="HD41Aacid" reversible="yes" type="surface">
-      <equation>**CH2OH + e- + H+ [=] CH3OH + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.420000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CH2OH:1.0 e-:1 H+:1</reactants>
-      <products>CH3OH:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction HD41Awater    -->
-    <reaction id="HD41Awater" reversible="yes" type="surface">
-      <equation>**CH2OH + e- + H2O [=] CH3OH + * + * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.420000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CH2OH:1.0 e-:1 H2O:1</reactants>
-      <products>CH3OH:1.0 *:2 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H05Btafel    -->
-    <reaction id="H05Btafel" reversible="yes" type="surface">
-      <equation>*COH + *H [=] *CHOH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.620000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COH:1.0 *H:1</reactants>
-      <products>*CHOH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H05Bacid    -->
-    <reaction id="H05Bacid" reversible="yes" type="surface">
-      <equation>*COH + e- + H+ [=] *CHOH</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.620000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COH:1.0 e-:1 H+:1</reactants>
-      <products>*CHOH:1.0</products>
-    </reaction>
-
-    <!-- reaction H05Bwater    -->
-    <reaction id="H05Bwater" reversible="yes" type="surface">
-      <equation>*COH + e- + H2O [=] *CHOH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.620000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COH:1.0 e-:1 H2O:1</reactants>
-      <products>*CHOH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H16Aiitafel    -->
-    <reaction id="H16Aiitafel" reversible="yes" type="surface">
-      <equation>**(CO)2 + *H [=] **COCOH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.640000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**(CO)2:1.0 *H:1</reactants>
-      <products>**COCOH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H16Aiiacid    -->
-    <reaction id="H16Aiiacid" reversible="yes" type="surface">
-      <equation>**(CO)2 + e- + H+ [=] **COCOH</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.640000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**(CO)2:1.0 e-:1 H+:1</reactants>
-      <products>**COCOH:1.0</products>
-    </reaction>
-
-    <!-- reaction H16Aiiwater    -->
-    <reaction id="H16Aiiwater" reversible="yes" type="surface">
-      <equation>**(CO)2 + e- + H2O [=] **COCOH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.640000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**(CO)2:1.0 e-:1 H2O:1</reactants>
-      <products>**COCOH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction HD77Atafel    -->
-    <reaction id="HD77Atafel" reversible="yes" type="surface">
-      <equation>*COHCH2O + *H [=] CH3COOH + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COHCH2O:1.0 *H:1</reactants>
-      <products>CH3COOH:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction HD77Aacid    -->
-    <reaction id="HD77Aacid" reversible="yes" type="surface">
-      <equation>*COHCH2O + e- + H+ [=] CH3COOH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COHCH2O:1.0 e-:1 H+:1</reactants>
-      <products>CH3COOH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction HD77Awater    -->
-    <reaction id="HD77Awater" reversible="yes" type="surface">
-      <equation>*COHCH2O + e- + H2O [=] CH3COOH + * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COHCH2O:1.0 e-:1 H2O:1</reactants>
-      <products>CH3COOH:1.0 *:1 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H16Bitafel    -->
-    <reaction id="H16Bitafel" reversible="yes" type="surface">
-      <equation>**(CO)2 + *H [=] *COCHO + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.51"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.970000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**(CO)2:1.0 *H:1</reactants>
-      <products>*COCHO:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction H16Biacid    -->
-    <reaction id="H16Biacid" reversible="yes" type="surface">
-      <equation>**(CO)2 + e- + H+ [=] *COCHO + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.51"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.970000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**(CO)2:1.0 e-:1 H+:1</reactants>
-      <products>*COCHO:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H16Biwater    -->
-    <reaction id="H16Biwater" reversible="yes" type="surface">
-      <equation>**(CO)2 + e- + H2O [=] *COCHO + * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.51"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.970000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**(CO)2:1.0 e-:1 H2O:1</reactants>
-      <products>*COCHO:1.0 *:1 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H17Aiitafel    -->
-    <reaction id="H17Aiitafel" reversible="yes" type="surface">
-      <equation>**COCHO + *H [=] **COCHOH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**COCHO:1.0 *H:1</reactants>
-      <products>**COCHOH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H17Aiiacid    -->
-    <reaction id="H17Aiiacid" reversible="yes" type="surface">
-      <equation>**COCHO + e- + H+ [=] **COCHOH</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**COCHO:1.0 e-:1 H+:1</reactants>
-      <products>**COCHOH:1.0</products>
-    </reaction>
-
-    <!-- reaction H17Aiiwater    -->
-    <reaction id="H17Aiiwater" reversible="yes" type="surface">
-      <equation>**COCHO + e- + H2O [=] **COCHOH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**COCHO:1.0 e-:1 H2O:1</reactants>
-      <products>**COCHOH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction C03Bi    -->
-    <reaction id="C03Bi" reversible="yes" type="surface">
-      <equation>*CO + *CHO [=] *COCHO + *</equation>
-      <rateCoeff>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.770000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CO:1.0 *CHO:1</reactants>
-      <products>*COCHO:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction C03Bii    -->
-    <reaction id="C03Bii" reversible="yes" type="surface">
-      <equation>*CO + *CHO [=] **COCHO</equation>
-      <rateCoeff>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.470000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CO:1.0 *CHO:1</reactants>
-      <products>**COCHO:1.0</products>
-    </reaction>
-
-    <!-- reaction O53A    -->
-    <reaction id="O53A" reversible="yes" type="surface">
-      <equation>**OCHCH2 [=] *OCHCH2 + *</equation>
-      <rateCoeff>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.300000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**OCHCH2:1.0</reactants>
-      <products>*OCHCH2:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H51Aiitafel    -->
-    <reaction id="H51Aiitafel" reversible="yes" type="surface">
-      <equation>**OCHCH + *H [=] *OCHCH2 + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**OCHCH:1.0 *H:1</reactants>
-      <products>*OCHCH2:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction H51Aiiacid    -->
-    <reaction id="H51Aiiacid" reversible="yes" type="surface">
-      <equation>**OCHCH + e- + H+ [=] *OCHCH2 + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**OCHCH:1.0 e-:1 H+:1</reactants>
-      <products>*OCHCH2:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H51Aiiwater    -->
-    <reaction id="H51Aiiwater" reversible="yes" type="surface">
-      <equation>**OCHCH + e- + H2O [=] *OCHCH2 + * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**OCHCH:1.0 e-:1 H2O:1</reactants>
-      <products>*OCHCH2:1.0 *:1 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H48Atafel    -->
-    <reaction id="H48Atafel" reversible="yes" type="surface">
-      <equation>**CHOCHO + *H [=] **CHOCHOH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.970000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CHOCHO:1.0 *H:1</reactants>
-      <products>**CHOCHOH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H48Aacid    -->
-    <reaction id="H48Aacid" reversible="yes" type="surface">
-      <equation>**CHOCHO + e- + H+ [=] **CHOCHOH</equation>
-      <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.970000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CHOCHO:1.0 e-:1 H+:1</reactants>
-      <products>**CHOCHOH:1.0</products>
-    </reaction>
-
-    <!-- reaction H48Awater    -->
-    <reaction id="H48Awater" reversible="yes" type="surface">
-      <equation>**CHOCHO + e- + H2O [=] **CHOCHOH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.970000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CHOCHO:1.0 e-:1 H2O:1</reactants>
-      <products>**CHOCHOH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction D45A    -->
-    <reaction id="D45A" reversible="yes" type="surface">
-      <equation>**CH2OCH2 [=] C2H4 + *O + *</equation>
-      <rateCoeff>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.010000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CH2OCH2:1.0</reactants>
-      <products>C2H4:1.0 *O:1 *:1</products>
-    </reaction>
-
-    <!-- reaction CD35A    -->
-    <reaction id="CD35A" reversible="yes" type="surface">
-      <equation>*CH2 + *CH2 [=] C2H4 + * + *</equation>
-      <rateCoeff>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.460000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2:2.0</reactants>
-      <products>C2H4:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction H92Atafel    -->
-    <reaction id="H92Atafel" reversible="yes" type="surface">
-      <equation>*O + *H [=] *OH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.300000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*O:1.0 *H:1</reactants>
-      <products>*OH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H92Aacid    -->
-    <reaction id="H92Aacid" reversible="yes" type="surface">
-      <equation>*O + e- + H+ [=] *OH</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.300000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*O:1.0 e-:1 H+:1</reactants>
-      <products>*OH:1.0</products>
-    </reaction>
-
-    <!-- reaction H92Awater    -->
-    <reaction id="H92Awater" reversible="yes" type="surface">
-      <equation>*O + e- + H2O [=] *OH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.300000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*O:1.0 e-:1 H2O:1</reactants>
-      <products>*OH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction HD93Atafel    -->
-    <reaction id="HD93Atafel" reversible="no" type="surface">
-      <equation>*OH + *H =] H2O + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.300000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*OH:1.0 *H:1</reactants>
-      <products>H2O:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction HD93Aacid    -->
-    <reaction id="HD93Aacid" reversible="no" type="surface">
-      <equation>*OH + e- + H+ =] H2O + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.300000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*OH:1.0 e-:1 H+:1</reactants>
-      <products>H2O:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction HD93Awater    -->
-    <reaction id="HD93Awater" reversible="no" type="surface">
-      <equation>*OH + e- =] * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.300000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*OH:1.0 e-:1</reactants>
-      <products>*:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction HD47Aiitafel    -->
-    <reaction id="HD47Aiitafel" reversible="yes" type="surface">
-      <equation>*CH2CH2OH + *H [=] CH3CH2OH + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2CH2OH:1.0 *H:1</reactants>
-      <products>CH3CH2OH:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction HD47Aiiacid    -->
-    <reaction id="HD47Aiiacid" reversible="yes" type="surface">
-      <equation>*CH2CH2OH + e- + H+ [=] CH3CH2OH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2CH2OH:1.0 e-:1 H+:1</reactants>
-      <products>CH3CH2OH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction HD47Aiiwater    -->
-    <reaction id="HD47Aiiwater" reversible="yes" type="surface">
-      <equation>*CH2CH2OH + e- + H2O [=] CH3CH2OH + * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2CH2OH:1.0 e-:1 H2O:1</reactants>
-      <products>CH3CH2OH:1.0 *:1 OH-:1</products>
-    </reaction>
-
-    <!-- reaction HD47Aitafel    -->
-    <reaction id="HD47Aitafel" reversible="yes" type="surface">
-      <equation>**OHCH2CH2 + *H [=] CH3CH2OH + * + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.52"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.750000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**OHCH2CH2:1.0 *H:1</reactants>
-      <products>CH3CH2OH:1.0 *:3</products>
-    </reaction>
-
-    <!-- reaction HD47Aiacid    -->
-    <reaction id="HD47Aiacid" reversible="yes" type="surface">
-      <equation>**OHCH2CH2 + e- + H+ [=] CH3CH2OH + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.52"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.750000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**OHCH2CH2:1.0 e-:1 H+:1</reactants>
-      <products>CH3CH2OH:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction HD47Aiwater    -->
-    <reaction id="HD47Aiwater" reversible="yes" type="surface">
-      <equation>**OHCH2CH2 + e- + H2O [=] CH3CH2OH + * + * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.52"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.750000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**OHCH2CH2:1.0 e-:1 H2O:1</reactants>
-      <products>CH3CH2OH:1.0 *:2 OH-:1</products>
-    </reaction>
-
-    <!-- reaction HD55Atafel    -->
-    <reaction id="HD55Atafel" reversible="yes" type="surface">
-      <equation>**CHCH2 + *H [=] C2H4 + * + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.495000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CHCH2:1.0 *H:1</reactants>
-      <products>C2H4:1.0 *:3</products>
-    </reaction>
-
-    <!-- reaction HD55Aacid    -->
-    <reaction id="HD55Aacid" reversible="yes" type="surface">
-      <equation>**CHCH2 + e- + H+ [=] C2H4 + * + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.495000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CHCH2:1.0 e-:1 H+:1</reactants>
-      <products>C2H4:1.0 *:2</products>
-    </reaction>
-
-    <!-- reaction HD55Awater    -->
-    <reaction id="HD55Awater" reversible="yes" type="surface">
-      <equation>**CHCH2 + e- + H2O [=] C2H4 + * + * + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.495000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>**CHCH2:1.0 e-:1 H2O:1</reactants>
-      <products>C2H4:1.0 *:2 OH-:1</products>
-    </reaction>
-
-    <!-- reaction A98Bacid    -->
-    <reaction id="A98Bacid" reversible="yes" type="surface">
-      <equation>e- + * + H+ [=] *H</equation>
-      <rateCoeff>
-        <electrochem beta="0.8"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.500000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>e-:1.0 *:1 H+:1</reactants>
-      <products>*H:1.0</products>
-    </reaction>
-
-    <!-- reaction A98Bwater    -->
-    <reaction id="A98Bwater" reversible="yes" type="surface">
-      <equation>e- + * + H2O [=] *H + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.540000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>e-:1.0 *:1 H2O:1</reactants>
-      <products>*H:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction A95A    -->
-    <reaction id="A95A" reversible="yes" type="surface">
-      <equation>H2O + * [=] *H2O</equation>
-      <rateCoeff>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.600000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>H2O:1.0 *:1</reactants>
-      <products>*H2O:1.0</products>
-    </reaction>
-
-    <!-- reaction AH01Atafel    -->
-    <reaction id="AH01Atafel" reversible="yes" type="surface">
-      <equation>CO2 + * + *H [=] *COOH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.44"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.920000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO2:1.0 *:1 *H:1</reactants>
-      <products>*COOH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction AH01Aacid    -->
-    <reaction id="AH01Aacid" reversible="yes" type="surface">
-      <equation>CO2 + e- + * + H+ [=] *COOH</equation>
-      <rateCoeff>
-        <electrochem beta="0.44"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.920000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO2:1.0 e-:1 *:1 H+:1</reactants>
-      <products>*COOH:1.0</products>
-    </reaction>
-
-    <!-- reaction AH01Awater    -->
-    <reaction id="AH01Awater" reversible="yes" type="surface">
-      <equation>CO2 + e- + * + H2O [=] *COOH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.44"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.920000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO2:1.0 e-:1 *:1 H2O:1</reactants>
-      <products>*COOH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction A13A    -->
-    <reaction id="A13A" reversible="no" type="surface">
-      <equation>CO + * =] *CO</equation>
-      <rateCoeff>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.200000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO:1.0 *:1</reactants>
-      <products>*CO:1.0</products>
-    </reaction>
-
-    <!-- reaction A01A    -->
-    <reaction id="A01A" reversible="yes" type="surface">
-      <equation>CO2 + e- + * [=] *CO2-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.430000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO2:1.0 e-:1 *:1</reactants>
-      <products>*CO2-:1.0</products>
-    </reaction>
-
-    <!-- reaction A01B    -->
-    <reaction id="A01B" reversible="yes" type="surface">
-      <equation>CO2 + * [=] *CO2</equation>
-      <rateCoeff>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.430000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO2:1.0 *:1</reactants>
-      <products>*CO2:1.0</products>
-    </reaction>
-
-    <!-- reaction AH01Btafel    -->
-    <reaction id="AH01Btafel" reversible="yes" type="surface">
-      <equation>CO2 + * + *H [=] *OCHO + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.000000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO2:1.0 *:1 *H:1</reactants>
-      <products>*OCHO:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction AH01Bacid    -->
-    <reaction id="AH01Bacid" reversible="yes" type="surface">
-      <equation>CO2 + e- + * + H+ [=] *OCHO</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.000000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO2:1.0 e-:1 *:1 H+:1</reactants>
-      <products>*OCHO:1.0</products>
-    </reaction>
-
-    <!-- reaction AH01Bwater    -->
-    <reaction id="AH01Bwater" reversible="yes" type="surface">
-      <equation>CO2 + e- + * + H2O [=] *OCHO + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.000000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>CO2:1.0 e-:1 *:1 H2O:1</reactants>
-      <products>*OCHO:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H03Btafel    -->
-    <reaction id="H03Btafel" reversible="yes" type="surface">
-      <equation>*CO + *H [=] *COH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.46"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.916000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CO:1.0 *H:1</reactants>
-      <products>*COH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H03Bacid    -->
-    <reaction id="H03Bacid" reversible="yes" type="surface">
-      <equation>*CO + e- + H+ [=] *COH</equation>
-      <rateCoeff>
-        <electrochem beta="0.46"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.916000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CO:1.0 e-:1 H+:1</reactants>
-      <products>*COH:1.0</products>
-    </reaction>
-
-    <!-- reaction H03Bwater    -->
-    <reaction id="H03Bwater" reversible="yes" type="surface">
-      <equation>*CO + e- + H2O [=] *COH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.46"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.916000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CO:1.0 e-:1 H2O:1</reactants>
-      <products>*COH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H05Atafel    -->
-    <reaction id="H05Atafel" reversible="yes" type="surface">
-      <equation>*COH + *H [=] *C + H2O + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.46"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.002000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COH:1.0 *H:1</reactants>
-      <products>*C:1.0 H2O:1 *:1</products>
-    </reaction>
-
-    <!-- reaction H05Aacid    -->
-    <reaction id="H05Aacid" reversible="yes" type="surface">
-      <equation>*COH + e- + H+ [=] *C + H2O</equation>
-      <rateCoeff>
-        <electrochem beta="0.46"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.002000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COH:1.0 e-:1 H+:1</reactants>
-      <products>*C:1.0 H2O:1</products>
-    </reaction>
-
-    <!-- reaction H05Awater    -->
-    <reaction id="H05Awater" reversible="yes" type="surface">
-      <equation>*COH + e- [=] *C + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.46"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">1.002000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*COH:1.0 e-:1</reactants>
-      <products>*C:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H33Atafel    -->
-    <reaction id="H33Atafel" reversible="yes" type="surface">
-      <equation>*C + *H [=] *CH + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.835000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*C:1.0 *H:1</reactants>
-      <products>*CH:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H33Aacid    -->
-    <reaction id="H33Aacid" reversible="yes" type="surface">
-      <equation>*C + e- + H+ [=] *CH</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.835000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*C:1.0 e-:1 H+:1</reactants>
-      <products>*CH:1.0</products>
-    </reaction>
-
-    <!-- reaction H33Awater    -->
-    <reaction id="H33Awater" reversible="yes" type="surface">
-      <equation>*C + e- + H2O [=] *CH + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.5"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.835000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*C:1.0 e-:1 H2O:1</reactants>
-      <products>*CH:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H34Atafel    -->
-    <reaction id="H34Atafel" reversible="yes" type="surface">
-      <equation>*CH + *H [=] *CH2 + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.655000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH:1.0 *H:1</reactants>
-      <products>*CH2:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H34Aacid    -->
-    <reaction id="H34Aacid" reversible="yes" type="surface">
-      <equation>*CH + e- + H+ [=] *CH2</equation>
-      <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.655000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH:1.0 e-:1 H+:1</reactants>
-      <products>*CH2:1.0</products>
-    </reaction>
-
-    <!-- reaction H34Awater    -->
-    <reaction id="H34Awater" reversible="yes" type="surface">
-      <equation>*CH + e- + H2O [=] *CH2 + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.655000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH:1.0 e-:1 H2O:1</reactants>
-      <products>*CH2:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H35Atafel    -->
-    <reaction id="H35Atafel" reversible="yes" type="surface">
-      <equation>*CH2 + *H [=] *CH3 + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.690000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2:1.0 *H:1</reactants>
-      <products>*CH3:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H35Aacid    -->
-    <reaction id="H35Aacid" reversible="yes" type="surface">
-      <equation>*CH2 + e- + H+ [=] *CH3</equation>
-      <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.690000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2:1.0 e-:1 H+:1</reactants>
-      <products>*CH3:1.0</products>
-    </reaction>
-
-    <!-- reaction H35Awater    -->
-    <reaction id="H35Awater" reversible="yes" type="surface">
-      <equation>*CH2 + e- + H2O [=] *CH3 + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.690000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CH2:1.0 e-:1 H2O:1</reactants>
-      <products>*CH3:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H03Atafel    -->
-    <reaction id="H03Atafel" reversible="yes" type="surface">
-      <equation>*CO + *H [=] *CHO + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.53"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.641000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CO:1.0 *H:1</reactants>
-      <products>*CHO:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H03Aacid    -->
-    <reaction id="H03Aacid" reversible="yes" type="surface">
-      <equation>*CO + e- + H+ [=] *CHO</equation>
-      <rateCoeff>
-        <electrochem beta="0.53"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.641000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CO:1.0 e-:1 H+:1</reactants>
-      <products>*CHO:1.0</products>
-    </reaction>
-
-    <!-- reaction H03Awater    -->
-    <reaction id="H03Awater" reversible="yes" type="surface">
-      <equation>*CO + e- + H2O [=] *CHO + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.53"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.641000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CO:1.0 e-:1 H2O:1</reactants>
-      <products>*CHO:1.0 OH-:1</products>
-    </reaction>
-
-    <!-- reaction H04Btafel    -->
-    <reaction id="H04Btafel" reversible="yes" type="surface">
-      <equation>*CHO + * + *H [=] **CH2O + *</equation>
-      <rateCoeff>
-        <electrochem beta="0.51"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.490000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHO:1.0 *:1 *H:1</reactants>
-      <products>**CH2O:1.0 *:1</products>
-    </reaction>
-
-    <!-- reaction H04Bacid    -->
-    <reaction id="H04Bacid" reversible="yes" type="surface">
-      <equation>*CHO + e- + * + H+ [=] **CH2O</equation>
-      <rateCoeff>
-        <electrochem beta="0.51"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.490000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHO:1.0 e-:1 *:1 H+:1</reactants>
-      <products>**CH2O:1.0</products>
-    </reaction>
-
-    <!-- reaction H04Bwater    -->
-    <reaction id="H04Bwater" reversible="yes" type="surface">
-      <equation>*CHO + e- + * + H2O [=] **CH2O + OH-</equation>
-      <rateCoeff>
-        <electrochem beta="0.51"/>
-        <Arrhenius>
-           <A>6.210000E+12</A>
-           <b>0</b>
-           <E units="eV">0.490000</E>
-        </Arrhenius>
-      </rateCoeff>
-      <reactants>*CHO:1.0 e-:1 *:1 H2O:1</reactants>
-      <products>**CH2O:1.0 OH-:1</products>
-    </reaction>
-
     <!-- reaction H04Atafel    -->
     <reaction id="H04Atafel" reversible="yes" type="surface">
-      <equation>*CHO + *H [=] *CHOH + *</equation>
+      <equation>*H + *CHO [=] *CHOH + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.980000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CHO:1.0 *H:1</reactants>
+      <reactants>*H:1.0 *CHO:1</reactants>
       <products>*CHOH:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H04Aacid    -->
     <reaction id="H04Aacid" reversible="yes" type="surface">
-      <equation>*CHO + e- + H+ [=] *CHOH</equation>
+      <equation>H+ + e- + *CHO [=] *CHOH</equation>
       <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
+        <electrochem beta="0.47"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.980000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CHO:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 *CHO:1</reactants>
       <products>*CHOH:1.0</products>
     </reaction>
 
     <!-- reaction H04Awater    -->
     <reaction id="H04Awater" reversible="yes" type="surface">
-      <equation>*CHO + e- + H2O [=] *CHOH + OH-</equation>
+      <equation>H2O + e- + *CHO [=] *CHOH + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
+        <electrochem beta="0.47"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.980000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CHO:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 *CHO:1</reactants>
       <products>*CHOH:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H39Aitafel    -->
     <reaction id="H39Aitafel" reversible="yes" type="surface">
-      <equation>**CH2O + *H [=] **CH2OH + *</equation>
+      <equation>*H + **CH2O [=] **CH2OH + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.980000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CH2O:1</reactants>
       <products>**CH2OH:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H39Aiacid    -->
     <reaction id="H39Aiacid" reversible="yes" type="surface">
-      <equation>**CH2O + e- + H+ [=] **CH2OH</equation>
+      <equation>H+ + e- + **CH2O [=] **CH2OH</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.980000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CH2O:1</reactants>
       <products>**CH2OH:1.0</products>
     </reaction>
 
     <!-- reaction H39Aiwater    -->
     <reaction id="H39Aiwater" reversible="yes" type="surface">
-      <equation>**CH2O + e- + H2O [=] **CH2OH + OH-</equation>
+      <equation>H2O + e- + **CH2O [=] **CH2OH + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.980000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **CH2O:1</reactants>
       <products>**CH2OH:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H39Aiitafel    -->
     <reaction id="H39Aiitafel" reversible="yes" type="surface">
-      <equation>**CH2O + *H [=] *CH2OH + * + *</equation>
+      <equation>*H + **CH2O [=] *CH2OH + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">1.100000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CH2O:1</reactants>
       <products>*CH2OH:1.0 *:2</products>
     </reaction>
 
     <!-- reaction H39Aiiacid    -->
     <reaction id="H39Aiiacid" reversible="yes" type="surface">
-      <equation>**CH2O + e- + H+ [=] *CH2OH + *</equation>
+      <equation>H+ + e- + **CH2O [=] *CH2OH + *</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -2780,13 +1928,13 @@
            <E units="eV">1.100000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CH2O:1</reactants>
       <products>*CH2OH:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H39Aiiwater    -->
     <reaction id="H39Aiiwater" reversible="yes" type="surface">
-      <equation>**CH2O + e- + H2O [=] *CH2OH + * + OH-</equation>
+      <equation>H2O + e- + **CH2O [=] *CH2OH + * + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -2795,73 +1943,291 @@
            <E units="eV">1.100000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **CH2O:1</reactants>
       <products>*CH2OH:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H38Atafel    -->
+    <reaction id="H38Atafel" reversible="yes" type="surface">
+      <equation>*H + *CHOH [=] *CH + H2O + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.630000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *CHOH:1</reactants>
+      <products>*CH:1.0 H2O:1 *:1</products>
+    </reaction>
+
+    <!-- reaction H38Aacid    -->
+    <reaction id="H38Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *CHOH [=] *CH + H2O</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.630000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *CHOH:1</reactants>
+      <products>*CH:1.0 H2O:1</products>
+    </reaction>
+
+    <!-- reaction H38Awater    -->
+    <reaction id="H38Awater" reversible="yes" type="surface">
+      <equation>e- + *CHOH [=] *CH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.630000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>e-:1.0 *CHOH:1</reactants>
+      <products>*CH:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H38Btafel    -->
+    <reaction id="H38Btafel" reversible="yes" type="surface">
+      <equation>*H + * + *CHOH [=] **CH2OH + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.390000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *:1 *CHOH:1</reactants>
+      <products>**CH2OH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H38Bacid    -->
+    <reaction id="H38Bacid" reversible="yes" type="surface">
+      <equation>H+ + * + e- + *CHOH [=] **CH2OH</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.390000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 *:1 e-:1 *CHOH:1</reactants>
+      <products>**CH2OH:1.0</products>
+    </reaction>
+
+    <!-- reaction H38Bwater    -->
+    <reaction id="H38Bwater" reversible="yes" type="surface">
+      <equation>H2O + * + e- + *CHOH [=] **CH2OH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.390000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 *:1 e-:1 *CHOH:1</reactants>
+      <products>**CH2OH:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H39Btafel    -->
     <reaction id="H39Btafel" reversible="yes" type="surface">
-      <equation>**CH2O + *H [=] *OCH3 + * + *</equation>
+      <equation>*H + **CH2O [=] *OCH3 + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.634000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CH2O:1</reactants>
       <products>*OCH3:1.0 *:2</products>
     </reaction>
 
     <!-- reaction H39Bacid    -->
     <reaction id="H39Bacid" reversible="yes" type="surface">
-      <equation>**CH2O + e- + H+ [=] *OCH3 + *</equation>
+      <equation>H+ + e- + **CH2O [=] *OCH3 + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.634000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CH2O:1</reactants>
       <products>*OCH3:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H39Bwater    -->
     <reaction id="H39Bwater" reversible="yes" type="surface">
-      <equation>**CH2O + e- + H2O [=] *OCH3 + * + OH-</equation>
+      <equation>H2O + e- + **CH2O [=] *OCH3 + * + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.634000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2O:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **CH2O:1</reactants>
       <products>*OCH3:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction HD42Btafel    -->
+    <reaction id="HD42Btafel" reversible="yes" type="surface">
+      <equation>*H + *OCH3 [=] CH3OH + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">1.030000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *OCH3:1</reactants>
+      <products>CH3OH:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction HD42Bacid    -->
+    <reaction id="HD42Bacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *OCH3 [=] CH3OH + *</equation>
+      <rateCoeff>
+        <electrochem beta="0.45"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.030000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *OCH3:1</reactants>
+      <products>CH3OH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction HD42Bwater    -->
+    <reaction id="HD42Bwater" reversible="yes" type="surface">
+      <equation>H2O + e- + *OCH3 [=] CH3OH + * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.45"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.030000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *OCH3:1</reactants>
+      <products>CH3OH:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H41Atafel    -->
+    <reaction id="H41Atafel" reversible="yes" type="surface">
+      <equation>*H + *CH2OH [=] *CH2 + H2O + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">1.180000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *CH2OH:1</reactants>
+      <products>*CH2:1.0 H2O:1 *:1</products>
+    </reaction>
+
+    <!-- reaction H41Aacid    -->
+    <reaction id="H41Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *CH2OH [=] *CH2 + H2O</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.180000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *CH2OH:1</reactants>
+      <products>*CH2:1.0 H2O:1</products>
+    </reaction>
+
+    <!-- reaction H41Awater    -->
+    <reaction id="H41Awater" reversible="yes" type="surface">
+      <equation>e- + *CH2OH [=] *CH2 + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.180000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>e-:1.0 *CH2OH:1</reactants>
+      <products>*CH2:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction HD41Atafel    -->
+    <reaction id="HD41Atafel" reversible="yes" type="surface">
+      <equation>*H + **CH2OH [=] CH3OH + * + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.420000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **CH2OH:1</reactants>
+      <products>CH3OH:1.0 *:3</products>
+    </reaction>
+
+    <!-- reaction HD41Aacid    -->
+    <reaction id="HD41Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + **CH2OH [=] CH3OH + * + *</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.420000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 **CH2OH:1</reactants>
+      <products>CH3OH:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction HD41Awater    -->
+    <reaction id="HD41Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + **CH2OH [=] CH3OH + * + * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.420000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 **CH2OH:1</reactants>
+      <products>CH3OH:1.0 *:2 OH-:1</products>
     </reaction>
 
     <!-- reaction HD42Atafel    -->
     <reaction id="HD42Atafel" reversible="yes" type="surface">
-      <equation>*OCH3 + *H [=] CH4 + *O + *</equation>
+      <equation>*H + *OCH3 [=] CH4 + *O + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">2.580000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCH3:1.0 *H:1</reactants>
+      <reactants>*H:1.0 *OCH3:1</reactants>
       <products>CH4:1.0 *O:1 *:1</products>
     </reaction>
 
     <!-- reaction HD42Aacid    -->
     <reaction id="HD42Aacid" reversible="yes" type="surface">
-      <equation>*OCH3 + e- + H+ [=] CH4 + *O</equation>
+      <equation>H+ + e- + *OCH3 [=] CH4 + *O</equation>
       <rateCoeff>
         <electrochem beta="0.4"/>
         <Arrhenius>
@@ -2870,13 +2236,13 @@
            <E units="eV">2.580000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCH3:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 *OCH3:1</reactants>
       <products>CH4:1.0 *O:1</products>
     </reaction>
 
     <!-- reaction HD42Awater    -->
     <reaction id="HD42Awater" reversible="yes" type="surface">
-      <equation>*OCH3 + e- + H2O [=] CH4 + *O + OH-</equation>
+      <equation>H2O + e- + *OCH3 [=] CH4 + *O + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.4"/>
         <Arrhenius>
@@ -2885,8 +2251,52 @@
            <E units="eV">2.580000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCH3:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 *OCH3:1</reactants>
       <products>CH4:1.0 *O:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H05Btafel    -->
+    <reaction id="H05Btafel" reversible="yes" type="surface">
+      <equation>*H + *COH [=] *CHOH + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">1.620000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *COH:1</reactants>
+      <products>*CHOH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H05Bacid    -->
+    <reaction id="H05Bacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *COH [=] *CHOH</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.620000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *COH:1</reactants>
+      <products>*CHOH:1.0</products>
+    </reaction>
+
+    <!-- reaction H05Bwater    -->
+    <reaction id="H05Bwater" reversible="yes" type="surface">
+      <equation>H2O + e- + *COH [=] *CHOH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">1.620000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *COH:1</reactants>
+      <products>*CHOH:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction C03Ai    -->
@@ -2894,7 +2304,7 @@
       <equation>*CO + *CO [=] **OCCO</equation>
       <rateCoeff>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.000000E+15</A>
            <b>0</b>
            <E units="eV">1.060000</E>
         </Arrhenius>
@@ -2908,7 +2318,7 @@
       <equation>*CO + *CO [=] **(CO)2</equation>
       <rateCoeff>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.000000E+15</A>
            <b>0</b>
            <E units="eV">0.530000</E>
         </Arrhenius>
@@ -2919,67 +2329,65 @@
 
     <!-- reaction H16Aitafel    -->
     <reaction id="H16Aitafel" reversible="yes" type="surface">
-      <equation>**OCCO + *H [=] **COHCO + *</equation>
+      <equation>*H + **OCCO [=] **COHCO + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.593000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCCO:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **OCCO:1</reactants>
       <products>**COHCO:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H16Aiacid    -->
     <reaction id="H16Aiacid" reversible="yes" type="surface">
-      <equation>**OCCO + e- + H+ [=] **COHCO</equation>
+      <equation>H+ + e- + **OCCO [=] **COHCO</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.593000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCCO:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **OCCO:1</reactants>
       <products>**COHCO:1.0</products>
     </reaction>
 
     <!-- reaction H16Aiwater    -->
     <reaction id="H16Aiwater" reversible="yes" type="surface">
-      <equation>**OCCO + e- + H2O [=] **COHCO + OH-</equation>
+      <equation>H2O + e- + **OCCO [=] **COHCO + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.593000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCCO:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **OCCO:1</reactants>
       <products>**COHCO:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H14Aitafel    -->
     <reaction id="H14Aitafel" reversible="yes" type="surface">
-      <equation>**COHCO + *H [=] *CCO + H2O + * + *</equation>
+      <equation>*H + **COHCO [=] *CCO + H2O + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.350000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COHCO:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **COHCO:1</reactants>
       <products>*CCO:1.0 H2O:1 *:2</products>
     </reaction>
 
     <!-- reaction H14Aiacid    -->
     <reaction id="H14Aiacid" reversible="yes" type="surface">
-      <equation>**COHCO + e- + H+ [=] *CCO + H2O + *</equation>
+      <equation>H+ + e- + **COHCO [=] *CCO + H2O + *</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -2988,13 +2396,13 @@
            <E units="eV">0.350000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COHCO:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **COHCO:1</reactants>
       <products>*CCO:1.0 H2O:1 *:1</products>
     </reaction>
 
     <!-- reaction H14Aiwater    -->
     <reaction id="H14Aiwater" reversible="yes" type="surface">
-      <equation>**COHCO + e- [=] *CCO + * + OH-</equation>
+      <equation>e- + **COHCO [=] *CCO + * + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3003,28 +2411,27 @@
            <E units="eV">0.350000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COHCO:1.0 e-:1</reactants>
+      <reactants>e-:1.0 **COHCO:1</reactants>
       <products>*CCO:1.0 *:1 OH-:1</products>
     </reaction>
 
     <!-- reaction H14Aiitafel    -->
     <reaction id="H14Aiitafel" reversible="yes" type="surface">
-      <equation>**COCOH + *H [=] *CCO + H2O + * + *</equation>
+      <equation>*H + **COCOH [=] *CCO + H2O + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.280000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COCOH:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **COCOH:1</reactants>
       <products>*CCO:1.0 H2O:1 *:2</products>
     </reaction>
 
     <!-- reaction H14Aiiacid    -->
     <reaction id="H14Aiiacid" reversible="yes" type="surface">
-      <equation>**COCOH + e- + H+ [=] *CCO + H2O + *</equation>
+      <equation>H+ + e- + **COCOH [=] *CCO + H2O + *</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3033,13 +2440,13 @@
            <E units="eV">0.280000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COCOH:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **COCOH:1</reactants>
       <products>*CCO:1.0 H2O:1 *:1</products>
     </reaction>
 
     <!-- reaction H14Aiiwater    -->
     <reaction id="H14Aiiwater" reversible="yes" type="surface">
-      <equation>**COCOH + e- [=] *CCO + * + OH-</equation>
+      <equation>e- + **COCOH [=] *CCO + * + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3048,163 +2455,203 @@
            <E units="eV">0.280000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COCOH:1.0 e-:1</reactants>
+      <reactants>e-:1.0 **COCOH:1</reactants>
       <products>*CCO:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H16Aiitafel    -->
+    <reaction id="H16Aiitafel" reversible="yes" type="surface">
+      <equation>*H + **(CO)2 [=] **COCOH + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.640000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **(CO)2:1</reactants>
+      <products>**COCOH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H16Aiiacid    -->
+    <reaction id="H16Aiiacid" reversible="yes" type="surface">
+      <equation>H+ + e- + **(CO)2 [=] **COCOH</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.640000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 **(CO)2:1</reactants>
+      <products>**COCOH:1.0</products>
+    </reaction>
+
+    <!-- reaction H16Aiiwater    -->
+    <reaction id="H16Aiiwater" reversible="yes" type="surface">
+      <equation>H2O + e- + **(CO)2 [=] **COCOH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.640000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 **(CO)2:1</reactants>
+      <products>**COCOH:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H19Atafel    -->
     <reaction id="H19Atafel" reversible="yes" type="surface">
-      <equation>*CCO + *H [=] *CHCO + *</equation>
+      <equation>*H + *CCO [=] *CHCO + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">1.024000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CCO:1.0 *H:1</reactants>
+      <reactants>*H:1.0 *CCO:1</reactants>
       <products>*CHCO:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H19Aacid    -->
     <reaction id="H19Aacid" reversible="yes" type="surface">
-      <equation>*CCO + e- + H+ [=] *CHCO</equation>
+      <equation>H+ + e- + *CCO [=] *CHCO</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">1.024000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CCO:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 *CCO:1</reactants>
       <products>*CHCO:1.0</products>
     </reaction>
 
     <!-- reaction H19Awater    -->
     <reaction id="H19Awater" reversible="yes" type="surface">
-      <equation>*CCO + e- + H2O [=] *CHCO + OH-</equation>
+      <equation>H2O + e- + *CCO [=] *CHCO + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">1.024000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CCO:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 *CCO:1</reactants>
       <products>*CHCO:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H58Atafel    -->
     <reaction id="H58Atafel" reversible="yes" type="surface">
-      <equation>*CHCO + * + * + *H [=] ***CH2CO + *</equation>
+      <equation>*H + * + * + *CHCO [=] ***CH2CO + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.998000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CHCO:1.0 *:2 *H:1</reactants>
+      <reactants>*H:1.0 *:2 *CHCO:1</reactants>
       <products>***CH2CO:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H58Aacid    -->
     <reaction id="H58Aacid" reversible="yes" type="surface">
-      <equation>*CHCO + e- + * + * + H+ [=] ***CH2CO</equation>
+      <equation>H+ + * + * + e- + *CHCO [=] ***CH2CO</equation>
       <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
+        <electrochem beta="0.47"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.998000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CHCO:1.0 e-:1 *:2 H+:1</reactants>
+      <reactants>H+:1.0 *:2 e-:1 *CHCO:1</reactants>
       <products>***CH2CO:1.0</products>
     </reaction>
 
     <!-- reaction H58Awater    -->
     <reaction id="H58Awater" reversible="yes" type="surface">
-      <equation>*CHCO + e- + * + * + H2O [=] ***CH2CO + OH-</equation>
+      <equation>H2O + * + * + e- + *CHCO [=] ***CH2CO + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4699999999999999"/>
+        <electrochem beta="0.47"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.998000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*CHCO:1.0 e-:1 *:2 H2O:1</reactants>
+      <reactants>H2O:1.0 *:2 e-:1 *CHCO:1</reactants>
       <products>***CH2CO:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H59Atafel    -->
     <reaction id="H59Atafel" reversible="yes" type="surface">
-      <equation>***CH2CO + *H [=] **OCHCH2 + * + *</equation>
+      <equation>*H + ***CH2CO [=] **OCHCH2 + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.605000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>***CH2CO:1.0 *H:1</reactants>
+      <reactants>*H:1.0 ***CH2CO:1</reactants>
       <products>**OCHCH2:1.0 *:2</products>
     </reaction>
 
     <!-- reaction H59Aacid    -->
     <reaction id="H59Aacid" reversible="yes" type="surface">
-      <equation>***CH2CO + e- + H+ [=] **OCHCH2 + *</equation>
+      <equation>H+ + e- + ***CH2CO [=] **OCHCH2 + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.605000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>***CH2CO:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 ***CH2CO:1</reactants>
       <products>**OCHCH2:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H59Awater    -->
     <reaction id="H59Awater" reversible="yes" type="surface">
-      <equation>***CH2CO + e- + H2O [=] **OCHCH2 + * + OH-</equation>
+      <equation>H2O + e- + ***CH2CO [=] **OCHCH2 + * + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.605000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>***CH2CO:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 ***CH2CO:1</reactants>
       <products>**OCHCH2:1.0 *:1 OH-:1</products>
     </reaction>
 
     <!-- reaction H53Btafel    -->
     <reaction id="H53Btafel" reversible="yes" type="surface">
-      <equation>**OCHCH2 + *H [=] **CH2OCH2 + *</equation>
+      <equation>*H + **OCHCH2 [=] **CH2OCH2 + *</equation>
       <rateCoeff>
-        <electrochem beta="0.52"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.833000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH2:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **OCHCH2:1</reactants>
       <products>**CH2OCH2:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H53Bacid    -->
     <reaction id="H53Bacid" reversible="yes" type="surface">
-      <equation>**OCHCH2 + e- + H+ [=] **CH2OCH2</equation>
+      <equation>H+ + e- + **OCHCH2 [=] **CH2OCH2</equation>
       <rateCoeff>
         <electrochem beta="0.52"/>
         <Arrhenius>
@@ -3213,13 +2660,13 @@
            <E units="eV">0.833000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH2:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **OCHCH2:1</reactants>
       <products>**CH2OCH2:1.0</products>
     </reaction>
 
     <!-- reaction H53Bwater    -->
     <reaction id="H53Bwater" reversible="yes" type="surface">
-      <equation>**OCHCH2 + e- + H2O [=] **CH2OCH2 + OH-</equation>
+      <equation>H2O + e- + **OCHCH2 [=] **CH2OCH2 + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.52"/>
         <Arrhenius>
@@ -3228,28 +2675,27 @@
            <E units="eV">0.833000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH2:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **OCHCH2:1</reactants>
       <products>**CH2OCH2:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H80Atafel    -->
     <reaction id="H80Atafel" reversible="yes" type="surface">
-      <equation>**CHCH2O + *H [=] **CH2OCH2 + *</equation>
+      <equation>*H + **CHCH2O [=] **CH2OCH2 + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHCH2O:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CHCH2O:1</reactants>
       <products>**CH2OCH2:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H80Aacid    -->
     <reaction id="H80Aacid" reversible="yes" type="surface">
-      <equation>**CHCH2O + e- + H+ [=] **CH2OCH2</equation>
+      <equation>H+ + e- + **CHCH2O [=] **CH2OCH2</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3258,13 +2704,13 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHCH2O:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CHCH2O:1</reactants>
       <products>**CH2OCH2:1.0</products>
     </reaction>
 
     <!-- reaction H80Awater    -->
     <reaction id="H80Awater" reversible="yes" type="surface">
-      <equation>**CHCH2O + e- + H2O [=] **CH2OCH2 + OH-</equation>
+      <equation>H2O + e- + **CHCH2O [=] **CH2OCH2 + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3273,28 +2719,27 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHCH2O:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **CHCH2O:1</reactants>
       <products>**CH2OCH2:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H79Atafel    -->
     <reaction id="H79Atafel" reversible="yes" type="surface">
-      <equation>**CHOHCH2O + *H [=] **CHCH2O + H2O + *</equation>
+      <equation>*H + **CHOHCH2O [=] **CHCH2O + H2O + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOHCH2O:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CHOHCH2O:1</reactants>
       <products>**CHCH2O:1.0 H2O:1 *:1</products>
     </reaction>
 
     <!-- reaction H79Aacid    -->
     <reaction id="H79Aacid" reversible="yes" type="surface">
-      <equation>**CHOHCH2O + e- + H+ [=] **CHCH2O + H2O</equation>
+      <equation>H+ + e- + **CHOHCH2O [=] **CHCH2O + H2O</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3303,13 +2748,13 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOHCH2O:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CHOHCH2O:1</reactants>
       <products>**CHCH2O:1.0 H2O:1</products>
     </reaction>
 
     <!-- reaction H79Awater    -->
     <reaction id="H79Awater" reversible="yes" type="surface">
-      <equation>**CHOHCH2O + e- [=] **CHCH2O + OH-</equation>
+      <equation>e- + **CHOHCH2O [=] **CHCH2O + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3318,28 +2763,27 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOHCH2O:1.0 e-:1</reactants>
+      <reactants>e-:1.0 **CHOHCH2O:1</reactants>
       <products>**CHCH2O:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H71Atafel    -->
     <reaction id="H71Atafel" reversible="yes" type="surface">
-      <equation>**COHCH2O + *H [=] **CHOHCH2O + *</equation>
+      <equation>*H + **COHCH2O [=] **CHOHCH2O + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COHCH2O:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **COHCH2O:1</reactants>
       <products>**CHOHCH2O:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H71Aacid    -->
     <reaction id="H71Aacid" reversible="yes" type="surface">
-      <equation>**COHCH2O + e- + H+ [=] **CHOHCH2O</equation>
+      <equation>H+ + e- + **COHCH2O [=] **CHOHCH2O</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3348,13 +2792,13 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COHCH2O:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **COHCH2O:1</reactants>
       <products>**CHOHCH2O:1.0</products>
     </reaction>
 
     <!-- reaction H71Awater    -->
     <reaction id="H71Awater" reversible="yes" type="surface">
-      <equation>**COHCH2O + e- + H2O [=] **CHOHCH2O + OH-</equation>
+      <equation>H2O + e- + **COHCH2O [=] **CHOHCH2O + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3363,7 +2807,7 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COHCH2O:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **COHCH2O:1</reactants>
       <products>**CHOHCH2O:1.0 OH-:1</products>
     </reaction>
 
@@ -3381,9 +2825,23 @@
       <products>*COHCH2O:1.0 *:1</products>
     </reaction>
 
-    <!-- reaction H70Atafel    -->
-    <reaction id="H70Atafel" reversible="yes" type="surface">
-      <equation>**COCH2O + *H [=] **COHCH2O + *</equation>
+    <!-- reaction HD77Atafel    -->
+    <reaction id="HD77Atafel" reversible="yes" type="surface">
+      <equation>*H + *COHCH2O [=] CH3COOH + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *COHCH2O:1</reactants>
+      <products>CH3COOH:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction HD77Aacid    -->
+    <reaction id="HD77Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *COHCH2O [=] CH3COOH + *</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3392,13 +2850,42 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COCH2O:1.0 *H:1</reactants>
+      <reactants>H+:1.0 e-:1 *COHCH2O:1</reactants>
+      <products>CH3COOH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction HD77Awater    -->
+    <reaction id="HD77Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + *COHCH2O [=] CH3COOH + * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *COHCH2O:1</reactants>
+      <products>CH3COOH:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H70Atafel    -->
+    <reaction id="H70Atafel" reversible="yes" type="surface">
+      <equation>*H + **COCH2O [=] **COHCH2O + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **COCH2O:1</reactants>
       <products>**COHCH2O:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H70Aacid    -->
     <reaction id="H70Aacid" reversible="yes" type="surface">
-      <equation>**COCH2O + e- + H+ [=] **COHCH2O</equation>
+      <equation>H+ + e- + **COCH2O [=] **COHCH2O</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3407,13 +2894,13 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COCH2O:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **COCH2O:1</reactants>
       <products>**COHCH2O:1.0</products>
     </reaction>
 
     <!-- reaction H70Awater    -->
     <reaction id="H70Awater" reversible="yes" type="surface">
-      <equation>**COCH2O + e- + H2O [=] **COHCH2O + OH-</equation>
+      <equation>H2O + e- + **COCH2O [=] **COHCH2O + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3422,7 +2909,7 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**COCH2O:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **COCH2O:1</reactants>
       <products>**COHCH2O:1.0 OH-:1</products>
     </reaction>
 
@@ -3442,22 +2929,21 @@
 
     <!-- reaction H17Aitafel    -->
     <reaction id="H17Aitafel" reversible="yes" type="surface">
-      <equation>*COCHO + * + *H [=] **COCHOH + *</equation>
+      <equation>*H + * + *COCHO [=] **COCHOH + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.780000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*COCHO:1.0 *:1 *H:1</reactants>
+      <reactants>*H:1.0 *:1 *COCHO:1</reactants>
       <products>**COCHOH:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H17Aiacid    -->
     <reaction id="H17Aiacid" reversible="yes" type="surface">
-      <equation>*COCHO + e- + * + H+ [=] **COCHOH</equation>
+      <equation>H+ + * + e- + *COCHO [=] **COCHOH</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3466,13 +2952,13 @@
            <E units="eV">0.780000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*COCHO:1.0 e-:1 *:1 H+:1</reactants>
+      <reactants>H+:1.0 *:1 e-:1 *COCHO:1</reactants>
       <products>**COCHOH:1.0</products>
     </reaction>
 
     <!-- reaction H17Aiwater    -->
     <reaction id="H17Aiwater" reversible="yes" type="surface">
-      <equation>*COCHO + e- + * + H2O [=] **COCHOH + OH-</equation>
+      <equation>H2O + * + e- + *COCHO [=] **COCHOH + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3481,28 +2967,71 @@
            <E units="eV">0.780000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*COCHO:1.0 e-:1 *:1 H2O:1</reactants>
+      <reactants>H2O:1.0 *:1 e-:1 *COCHO:1</reactants>
       <products>**COCHOH:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H16Bitafel    -->
+    <reaction id="H16Bitafel" reversible="yes" type="surface">
+      <equation>*H + **(CO)2 [=] *COCHO + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.970000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **(CO)2:1</reactants>
+      <products>*COCHO:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction H16Biacid    -->
+    <reaction id="H16Biacid" reversible="yes" type="surface">
+      <equation>H+ + e- + **(CO)2 [=] *COCHO + *</equation>
+      <rateCoeff>
+        <electrochem beta="0.51"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.970000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 **(CO)2:1</reactants>
+      <products>*COCHO:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H16Biwater    -->
+    <reaction id="H16Biwater" reversible="yes" type="surface">
+      <equation>H2O + e- + **(CO)2 [=] *COCHO + * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.51"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.970000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 **(CO)2:1</reactants>
+      <products>*COCHO:1.0 *:1 OH-:1</products>
     </reaction>
 
     <!-- reaction H16Biitafel    -->
     <reaction id="H16Biitafel" reversible="yes" type="surface">
-      <equation>**(CO)2 + *H [=] **COCHO + *</equation>
+      <equation>*H + **(CO)2 [=] **COCHO + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">1.310000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**(CO)2:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **(CO)2:1</reactants>
       <products>**COCHO:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H16Biiacid    -->
     <reaction id="H16Biiacid" reversible="yes" type="surface">
-      <equation>**(CO)2 + e- + H+ [=] **COCHO</equation>
+      <equation>H+ + e- + **(CO)2 [=] **COCHO</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3511,13 +3040,13 @@
            <E units="eV">1.310000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**(CO)2:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **(CO)2:1</reactants>
       <products>**COCHO:1.0</products>
     </reaction>
 
     <!-- reaction H16Biiwater    -->
     <reaction id="H16Biiwater" reversible="yes" type="surface">
-      <equation>**(CO)2 + e- + H2O [=] **COCHO + OH-</equation>
+      <equation>H2O + e- + **(CO)2 [=] **COCHO + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3526,73 +3055,143 @@
            <E units="eV">1.310000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**(CO)2:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **(CO)2:1</reactants>
       <products>**COCHO:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H17Aiitafel    -->
+    <reaction id="H17Aiitafel" reversible="yes" type="surface">
+      <equation>*H + **COCHO [=] **COCHOH + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **COCHO:1</reactants>
+      <products>**COCHOH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H17Aiiacid    -->
+    <reaction id="H17Aiiacid" reversible="yes" type="surface">
+      <equation>H+ + e- + **COCHO [=] **COCHOH</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 **COCHO:1</reactants>
+      <products>**COCHOH:1.0</products>
+    </reaction>
+
+    <!-- reaction H17Aiiwater    -->
+    <reaction id="H17Aiiwater" reversible="yes" type="surface">
+      <equation>H2O + e- + **COCHO [=] **COCHOH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 **COCHO:1</reactants>
+      <products>**COCHOH:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction C03Bi    -->
+    <reaction id="C03Bi" reversible="yes" type="surface">
+      <equation>*CHO + *CO [=] *COCHO + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.000000E+15</A>
+           <b>0</b>
+           <E units="eV">0.770000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*CHO:1.0 *CO:1</reactants>
+      <products>*COCHO:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction C03Bii    -->
+    <reaction id="C03Bii" reversible="yes" type="surface">
+      <equation>*CHO + *CO [=] **COCHO</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.000000E+15</A>
+           <b>0</b>
+           <E units="eV">1.470000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*CHO:1.0 *CO:1</reactants>
+      <products>**COCHO:1.0</products>
     </reaction>
 
     <!-- reaction H51Aitafel    -->
     <reaction id="H51Aitafel" reversible="yes" type="surface">
-      <equation>**OCHCH + *H [=] **OCHCH2 + *</equation>
+      <equation>*H + **OCHCH [=] **OCHCH2 + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.748000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **OCHCH:1</reactants>
       <products>**OCHCH2:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H51Aiacid    -->
     <reaction id="H51Aiacid" reversible="yes" type="surface">
-      <equation>**OCHCH + e- + H+ [=] **OCHCH2</equation>
+      <equation>H+ + e- + **OCHCH [=] **OCHCH2</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.748000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **OCHCH:1</reactants>
       <products>**OCHCH2:1.0</products>
     </reaction>
 
     <!-- reaction H51Aiwater    -->
     <reaction id="H51Aiwater" reversible="yes" type="surface">
-      <equation>**OCHCH + e- + H2O [=] **OCHCH2 + OH-</equation>
+      <equation>H2O + e- + **OCHCH [=] **OCHCH2 + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4799999999999999"/>
+        <electrochem beta="0.48"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.748000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **OCHCH:1</reactants>
       <products>**OCHCH2:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H49Btafel    -->
     <reaction id="H49Btafel" reversible="yes" type="surface">
-      <equation>**CHOCHOH + *H [=] **OCHCH + H2O + *</equation>
+      <equation>*H + **CHOCHOH [=] **OCHCH + H2O + *</equation>
       <rateCoeff>
-        <electrochem beta="0.46"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.924000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCHOH:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CHOCHOH:1</reactants>
       <products>**OCHCH:1.0 H2O:1 *:1</products>
     </reaction>
 
     <!-- reaction H49Bacid    -->
     <reaction id="H49Bacid" reversible="yes" type="surface">
-      <equation>**CHOCHOH + e- + H+ [=] **OCHCH + H2O</equation>
+      <equation>H+ + e- + **CHOCHOH [=] **OCHCH + H2O</equation>
       <rateCoeff>
         <electrochem beta="0.46"/>
         <Arrhenius>
@@ -3601,13 +3200,13 @@
            <E units="eV">0.924000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCHOH:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CHOCHOH:1</reactants>
       <products>**OCHCH:1.0 H2O:1</products>
     </reaction>
 
     <!-- reaction H49Bwater    -->
     <reaction id="H49Bwater" reversible="yes" type="surface">
-      <equation>**CHOCHOH + e- [=] **OCHCH + OH-</equation>
+      <equation>e- + **CHOCHOH [=] **OCHCH + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.46"/>
         <Arrhenius>
@@ -3616,28 +3215,27 @@
            <E units="eV">0.924000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCHOH:1.0 e-:1</reactants>
+      <reactants>e-:1.0 **CHOCHOH:1</reactants>
       <products>**OCHCH:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H49Ctafel    -->
     <reaction id="H49Ctafel" reversible="yes" type="surface">
-      <equation>**CHOCHOH + *H [=] **CHOCH2OH + *</equation>
+      <equation>*H + **CHOCHOH [=] **CHOCH2OH + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCHOH:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CHOCHOH:1</reactants>
       <products>**CHOCH2OH:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H49Cacid    -->
     <reaction id="H49Cacid" reversible="yes" type="surface">
-      <equation>**CHOCHOH + e- + H+ [=] **CHOCH2OH</equation>
+      <equation>H+ + e- + **CHOCHOH [=] **CHOCH2OH</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3646,13 +3244,13 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCHOH:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CHOCHOH:1</reactants>
       <products>**CHOCH2OH:1.0</products>
     </reaction>
 
     <!-- reaction H49Cwater    -->
     <reaction id="H49Cwater" reversible="yes" type="surface">
-      <equation>**CHOCHOH + e- + H2O [=] **CHOCH2OH + OH-</equation>
+      <equation>H2O + e- + **CHOCHOH [=] **CHOCH2OH + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3661,28 +3259,27 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCHOH:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **CHOCHOH:1</reactants>
       <products>**CHOCH2OH:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H73Btafel    -->
     <reaction id="H73Btafel" reversible="yes" type="surface">
-      <equation>**CHOCH2OH + *H [=] *OCHCH2 + H2O + * + *</equation>
+      <equation>*H + **CHOCH2OH [=] *OCHCH2 + H2O + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCH2OH:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CHOCH2OH:1</reactants>
       <products>*OCHCH2:1.0 H2O:1 *:2</products>
     </reaction>
 
     <!-- reaction H73Bacid    -->
     <reaction id="H73Bacid" reversible="yes" type="surface">
-      <equation>**CHOCH2OH + e- + H+ [=] *OCHCH2 + H2O + *</equation>
+      <equation>H+ + e- + **CHOCH2OH [=] *OCHCH2 + H2O + *</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3691,13 +3288,13 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCH2OH:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CHOCH2OH:1</reactants>
       <products>*OCHCH2:1.0 H2O:1 *:1</products>
     </reaction>
 
     <!-- reaction H73Bwater    -->
     <reaction id="H73Bwater" reversible="yes" type="surface">
-      <equation>**CHOCH2OH + e- [=] *OCHCH2 + * + OH-</equation>
+      <equation>e- + **CHOCH2OH [=] *OCHCH2 + * + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3706,7 +3303,65 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOCH2OH:1.0 e-:1</reactants>
+      <reactants>e-:1.0 **CHOCH2OH:1</reactants>
+      <products>*OCHCH2:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction O53A    -->
+    <reaction id="O53A" reversible="yes" type="surface">
+      <equation>**OCHCH2 [=] *OCHCH2 + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.300000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>**OCHCH2:1.0</reactants>
+      <products>*OCHCH2:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H51Aiitafel    -->
+    <reaction id="H51Aiitafel" reversible="yes" type="surface">
+      <equation>*H + **OCHCH [=] *OCHCH2 + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **OCHCH:1</reactants>
+      <products>*OCHCH2:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction H51Aiiacid    -->
+    <reaction id="H51Aiiacid" reversible="yes" type="surface">
+      <equation>H+ + e- + **OCHCH [=] *OCHCH2 + *</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 **OCHCH:1</reactants>
+      <products>*OCHCH2:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H51Aiiwater    -->
+    <reaction id="H51Aiiwater" reversible="yes" type="surface">
+      <equation>H2O + e- + **OCHCH [=] *OCHCH2 + * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 **OCHCH:1</reactants>
       <products>*OCHCH2:1.0 *:1 OH-:1</products>
     </reaction>
 
@@ -3715,7 +3370,7 @@
       <equation>*CHO + *CHO [=] **CHOCHO</equation>
       <rateCoeff>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.000000E+15</A>
            <b>0</b>
            <E units="eV">0.220000</E>
         </Arrhenius>
@@ -3724,48 +3379,105 @@
       <products>**CHOCHO:1.0</products>
     </reaction>
 
-    <!-- reaction H45Btafel    -->
-    <reaction id="H45Btafel" reversible="yes" type="surface">
-      <equation>**CH2OCH2 + *H [=] **OHCH2CH2 + *</equation>
+    <!-- reaction H48Atafel    -->
+    <reaction id="H48Atafel" reversible="yes" type="surface">
+      <equation>*H + **CHOCHO [=] **CHOCHOH + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.970000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **CHOCHO:1</reactants>
+      <products>**CHOCHOH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H48Aacid    -->
+    <reaction id="H48Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + **CHOCHO [=] **CHOCHOH</equation>
+      <rateCoeff>
+        <electrochem beta="0.47"/>
         <Arrhenius>
            <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.970000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 **CHOCHO:1</reactants>
+      <products>**CHOCHOH:1.0</products>
+    </reaction>
+
+    <!-- reaction H48Awater    -->
+    <reaction id="H48Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + **CHOCHO [=] **CHOCHOH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.47"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.970000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 **CHOCHO:1</reactants>
+      <products>**CHOCHOH:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction D45A    -->
+    <reaction id="D45A" reversible="yes" type="surface">
+      <equation>**CH2OCH2 [=] C2H4 + *O + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.000000E+15</A>
+           <b>0</b>
+           <E units="eV">1.010000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>**CH2OCH2:1.0</reactants>
+      <products>C2H4:1.0 *O:1 *:1</products>
+    </reaction>
+
+    <!-- reaction H45Btafel    -->
+    <reaction id="H45Btafel" reversible="yes" type="surface">
+      <equation>*H + **CH2OCH2 [=] **OHCH2CH2 + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.844000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2OCH2:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CH2OCH2:1</reactants>
       <products>**OHCH2CH2:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H45Bacid    -->
     <reaction id="H45Bacid" reversible="yes" type="surface">
-      <equation>**CH2OCH2 + e- + H+ [=] **OHCH2CH2</equation>
+      <equation>H+ + e- + **CH2OCH2 [=] **OHCH2CH2</equation>
       <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
+        <electrochem beta="0.49"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.844000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2OCH2:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CH2OCH2:1</reactants>
       <products>**OHCH2CH2:1.0</products>
     </reaction>
 
     <!-- reaction H45Bwater    -->
     <reaction id="H45Bwater" reversible="yes" type="surface">
-      <equation>**CH2OCH2 + e- + H2O [=] **OHCH2CH2 + OH-</equation>
+      <equation>H2O + e- + **CH2OCH2 [=] **OHCH2CH2 + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
+        <electrochem beta="0.49"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.844000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CH2OCH2:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **CH2OCH2:1</reactants>
       <products>**OHCH2CH2:1.0 OH-:1</products>
     </reaction>
 
@@ -3774,7 +3486,7 @@
       <equation>**OHCH2CH2 [=] C2H4 + *OH + *</equation>
       <rateCoeff>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.000000E+15</A>
            <b>0</b>
            <E units="eV">0.390000</E>
         </Arrhenius>
@@ -3783,24 +3495,125 @@
       <products>C2H4:1.0 *OH:1 *:1</products>
     </reaction>
 
-    <!-- reaction H53Aiitafel    -->
-    <reaction id="H53Aiitafel" reversible="yes" type="surface">
-      <equation>*OCHCH2 + * + *H [=] **CHOHCH2 + *</equation>
+    <!-- reaction CD35A    -->
+    <reaction id="CD35A" reversible="yes" type="surface">
+      <equation>*CH2 + *CH2 [=] C2H4 + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.000000E+15</A>
+           <b>0</b>
+           <E units="eV">0.460000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*CH2:2.0</reactants>
+      <products>C2H4:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction H92Atafel    -->
+    <reaction id="H92Atafel" reversible="yes" type="surface">
+      <equation>*H + *O [=] *OH + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.300000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *O:1</reactants>
+      <products>*OH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction H92Aacid    -->
+    <reaction id="H92Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *O [=] *OH</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
+           <E units="eV">0.300000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *O:1</reactants>
+      <products>*OH:1.0</products>
+    </reaction>
+
+    <!-- reaction H92Awater    -->
+    <reaction id="H92Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + *O [=] *OH + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.300000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *O:1</reactants>
+      <products>*OH:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction HD93Atafel    -->
+    <reaction id="HD93Atafel" reversible="no" type="surface">
+      <equation>*H + *OH =] H2O + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.300000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *OH:1</reactants>
+      <products>H2O:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction HD93Aacid    -->
+    <reaction id="HD93Aacid" reversible="no" type="surface">
+      <equation>H+ + e- + *OH =] H2O + *</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.300000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *OH:1</reactants>
+      <products>H2O:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction HD93Awater    -->
+    <reaction id="HD93Awater" reversible="no" type="surface">
+      <equation>e- + *OH =] * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.300000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>e-:1.0 *OH:1</reactants>
+      <products>*:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction H53Aiitafel    -->
+    <reaction id="H53Aiitafel" reversible="yes" type="surface">
+      <equation>*H + * + *OCHCH2 [=] **CHOHCH2 + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCHCH2:1.0 *:1 *H:1</reactants>
+      <reactants>*H:1.0 *:1 *OCHCH2:1</reactants>
       <products>**CHOHCH2:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H53Aiiacid    -->
     <reaction id="H53Aiiacid" reversible="yes" type="surface">
-      <equation>*OCHCH2 + e- + * + H+ [=] **CHOHCH2</equation>
+      <equation>H+ + * + e- + *OCHCH2 [=] **CHOHCH2</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3809,13 +3622,13 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCHCH2:1.0 e-:1 *:1 H+:1</reactants>
+      <reactants>H+:1.0 *:1 e-:1 *OCHCH2:1</reactants>
       <products>**CHOHCH2:1.0</products>
     </reaction>
 
     <!-- reaction H53Aiiwater    -->
     <reaction id="H53Aiiwater" reversible="yes" type="surface">
-      <equation>*OCHCH2 + e- + * + H2O [=] **CHOHCH2 + OH-</equation>
+      <equation>H2O + * + e- + *OCHCH2 [=] **CHOHCH2 + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3824,28 +3637,27 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>*OCHCH2:1.0 e-:1 *:1 H2O:1</reactants>
+      <reactants>H2O:1.0 *:1 e-:1 *OCHCH2:1</reactants>
       <products>**CHOHCH2:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H54Btafel    -->
     <reaction id="H54Btafel" reversible="yes" type="surface">
-      <equation>**CHOHCH2 + *H [=] *CH2CH2OH + * + *</equation>
+      <equation>*H + **CHOHCH2 [=] *CH2CH2OH + * + *</equation>
       <rateCoeff>
-        <electrochem beta="0.5"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOHCH2:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **CHOHCH2:1</reactants>
       <products>*CH2CH2OH:1.0 *:2</products>
     </reaction>
 
     <!-- reaction H54Bacid    -->
     <reaction id="H54Bacid" reversible="yes" type="surface">
-      <equation>**CHOHCH2 + e- + H+ [=] *CH2CH2OH + *</equation>
+      <equation>H+ + e- + **CHOHCH2 [=] *CH2CH2OH + *</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3854,13 +3666,13 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOHCH2:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **CHOHCH2:1</reactants>
       <products>*CH2CH2OH:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H54Bwater    -->
     <reaction id="H54Bwater" reversible="yes" type="surface">
-      <equation>**CHOHCH2 + e- + H2O [=] *CH2CH2OH + * + OH-</equation>
+      <equation>H2O + e- + **CHOHCH2 [=] *CH2CH2OH + * + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.5"/>
         <Arrhenius>
@@ -3869,73 +3681,159 @@
            <E units="eV">0.600000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**CHOHCH2:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **CHOHCH2:1</reactants>
       <products>*CH2CH2OH:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction HD47Aiitafel    -->
+    <reaction id="HD47Aiitafel" reversible="yes" type="surface">
+      <equation>*H + *CH2CH2OH [=] CH3CH2OH + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 *CH2CH2OH:1</reactants>
+      <products>CH3CH2OH:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction HD47Aiiacid    -->
+    <reaction id="HD47Aiiacid" reversible="yes" type="surface">
+      <equation>H+ + e- + *CH2CH2OH [=] CH3CH2OH + *</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 *CH2CH2OH:1</reactants>
+      <products>CH3CH2OH:1.0 *:1</products>
+    </reaction>
+
+    <!-- reaction HD47Aiiwater    -->
+    <reaction id="HD47Aiiwater" reversible="yes" type="surface">
+      <equation>H2O + e- + *CH2CH2OH [=] CH3CH2OH + * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.5"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.600000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 *CH2CH2OH:1</reactants>
+      <products>CH3CH2OH:1.0 *:1 OH-:1</products>
+    </reaction>
+
+    <!-- reaction HD47Aitafel    -->
+    <reaction id="HD47Aitafel" reversible="yes" type="surface">
+      <equation>*H + **OHCH2CH2 [=] CH3CH2OH + * + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.750000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **OHCH2CH2:1</reactants>
+      <products>CH3CH2OH:1.0 *:3</products>
+    </reaction>
+
+    <!-- reaction HD47Aiacid    -->
+    <reaction id="HD47Aiacid" reversible="yes" type="surface">
+      <equation>H+ + e- + **OHCH2CH2 [=] CH3CH2OH + * + *</equation>
+      <rateCoeff>
+        <electrochem beta="0.52"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.750000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 **OHCH2CH2:1</reactants>
+      <products>CH3CH2OH:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction HD47Aiwater    -->
+    <reaction id="HD47Aiwater" reversible="yes" type="surface">
+      <equation>H2O + e- + **OHCH2CH2 [=] CH3CH2OH + * + * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.52"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.750000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 **OHCH2CH2:1</reactants>
+      <products>CH3CH2OH:1.0 *:2 OH-:1</products>
     </reaction>
 
     <!-- reaction H53Aitafel    -->
     <reaction id="H53Aitafel" reversible="yes" type="surface">
-      <equation>**OCHCH2 + *H [=] **OHCHCH2 + *</equation>
+      <equation>*H + **OCHCH2 [=] **OHCHCH2 + *</equation>
       <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">0.895000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH2:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **OCHCH2:1</reactants>
       <products>**OHCHCH2:1.0 *:1</products>
     </reaction>
 
     <!-- reaction H53Aiacid    -->
     <reaction id="H53Aiacid" reversible="yes" type="surface">
-      <equation>**OCHCH2 + e- + H+ [=] **OHCHCH2</equation>
+      <equation>H+ + e- + **OCHCH2 [=] **OHCHCH2</equation>
       <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
+        <electrochem beta="0.49"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.895000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH2:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **OCHCH2:1</reactants>
       <products>**OHCHCH2:1.0</products>
     </reaction>
 
     <!-- reaction H53Aiwater    -->
     <reaction id="H53Aiwater" reversible="yes" type="surface">
-      <equation>**OCHCH2 + e- + H2O [=] **OHCHCH2 + OH-</equation>
+      <equation>H2O + e- + **OCHCH2 [=] **OHCHCH2 + OH-</equation>
       <rateCoeff>
-        <electrochem beta="0.4899999999999999"/>
+        <electrochem beta="0.49"/>
         <Arrhenius>
            <A>6.210000E+12</A>
            <b>0</b>
            <E units="eV">0.895000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OCHCH2:1.0 e-:1 H2O:1</reactants>
+      <reactants>H2O:1.0 e-:1 **OCHCH2:1</reactants>
       <products>**OHCHCH2:1.0 OH-:1</products>
     </reaction>
 
     <!-- reaction H54Atafel    -->
     <reaction id="H54Atafel" reversible="yes" type="surface">
-      <equation>**OHCHCH2 + *H [=] **CHCH2 + H2O + *</equation>
+      <equation>*H + **OHCHCH2 [=] **CHCH2 + H2O + *</equation>
       <rateCoeff>
-        <electrochem beta="0.53"/>
         <Arrhenius>
-           <A>6.210000E+12</A>
+           <A>6.210000E+15</A>
            <b>0</b>
            <E units="eV">1.099000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OHCHCH2:1.0 *H:1</reactants>
+      <reactants>*H:1.0 **OHCHCH2:1</reactants>
       <products>**CHCH2:1.0 H2O:1 *:1</products>
     </reaction>
 
     <!-- reaction H54Aacid    -->
     <reaction id="H54Aacid" reversible="yes" type="surface">
-      <equation>**OHCHCH2 + e- + H+ [=] **CHCH2 + H2O</equation>
+      <equation>H+ + e- + **OHCHCH2 [=] **CHCH2 + H2O</equation>
       <rateCoeff>
         <electrochem beta="0.53"/>
         <Arrhenius>
@@ -3944,13 +3842,13 @@
            <E units="eV">1.099000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OHCHCH2:1.0 e-:1 H+:1</reactants>
+      <reactants>H+:1.0 e-:1 **OHCHCH2:1</reactants>
       <products>**CHCH2:1.0 H2O:1</products>
     </reaction>
 
     <!-- reaction H54Awater    -->
     <reaction id="H54Awater" reversible="yes" type="surface">
-      <equation>**OHCHCH2 + e- [=] **CHCH2 + OH-</equation>
+      <equation>e- + **OHCHCH2 [=] **CHCH2 + OH-</equation>
       <rateCoeff>
         <electrochem beta="0.53"/>
         <Arrhenius>
@@ -3959,8 +3857,52 @@
            <E units="eV">1.099000</E>
         </Arrhenius>
       </rateCoeff>
-      <reactants>**OHCHCH2:1.0 e-:1</reactants>
+      <reactants>e-:1.0 **OHCHCH2:1</reactants>
       <products>**CHCH2:1.0 OH-:1</products>
+    </reaction>
+
+    <!-- reaction HD55Atafel    -->
+    <reaction id="HD55Atafel" reversible="yes" type="surface">
+      <equation>*H + **CHCH2 [=] C2H4 + * + * + *</equation>
+      <rateCoeff>
+        <Arrhenius>
+           <A>6.210000E+15</A>
+           <b>0</b>
+           <E units="eV">0.495000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>*H:1.0 **CHCH2:1</reactants>
+      <products>C2H4:1.0 *:3</products>
+    </reaction>
+
+    <!-- reaction HD55Aacid    -->
+    <reaction id="HD55Aacid" reversible="yes" type="surface">
+      <equation>H+ + e- + **CHCH2 [=] C2H4 + * + *</equation>
+      <rateCoeff>
+        <electrochem beta="0.47"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.495000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H+:1.0 e-:1 **CHCH2:1</reactants>
+      <products>C2H4:1.0 *:2</products>
+    </reaction>
+
+    <!-- reaction HD55Awater    -->
+    <reaction id="HD55Awater" reversible="yes" type="surface">
+      <equation>H2O + e- + **CHCH2 [=] C2H4 + * + * + OH-</equation>
+      <rateCoeff>
+        <electrochem beta="0.47"/>
+        <Arrhenius>
+           <A>6.210000E+12</A>
+           <b>0</b>
+           <E units="eV">0.495000</E>
+        </Arrhenius>
+      </rateCoeff>
+      <reactants>H2O:1.0 e-:1 **CHCH2:1</reactants>
+      <products>C2H4:1.0 *:2 OH-:1</products>
     </reaction>
   </reactionData>
 </ctml>
