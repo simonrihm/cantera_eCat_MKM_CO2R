@@ -1,0 +1,5 @@
+Index,name,type,add1,add2,add3
+1,gas,ideal_gas,reactions='None',,
+2,liquid,incompressible_solid,"density=(997,'kg/m3')",,
+3,solid,metal,"density=(8908,'kg/m3')",,
+4,surface,ideal_interface,reactions='all',"site_density=(2.177e-8,'kmol/m2')",phases='gas solid liquid'
