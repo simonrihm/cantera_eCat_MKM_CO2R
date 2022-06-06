@@ -145,8 +145,8 @@ These Options manage how the simulation results that are written to the output f
     -	T10 (SAMPLING_T10): only print output results of every 10 seconds (roughly)
       -	this only works for transient output with set t_end (no steady-state)
     -	NONE (SAMPLING_NONE): no sampling, outputs are printed for all steps
--	 “changerate” (in Code ioManager::ddtOutputOpts)
-    -	ALL (DDT_ALL): output relative rate of change for total current density, sum of Faradaic Efficiencies for all products, rates of change for all product FE, Faradaic Efficiencies for all intermediates and time when steady state was reached (-1 if not)
+- “changerate” (in Code ioManager::ddtOutputOpts)
+    - ALL (DDT_ALL): output relative rate of change for total current density, sum of Faradaic Efficiencies for all products, rates of change for all product FE, Faradaic Efficiencies for all intermediates and time when steady state was reached (-1 if not)
     -	PROD (DDT_PROD): output relative rate of change for total current density, sum of Faradaic Efficiencies for all products, rates of change for all product FE, ss time
     -	SS (DDT_SS): output relative di/dt, sum(FE) and steady state time
     -	NONE (DDT_NONE): no outputs regarding rates of change or steady state
