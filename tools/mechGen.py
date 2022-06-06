@@ -13,8 +13,8 @@ import matlabFunctions as mlf
 
 pathString = r'D:\Dropbox (Cambridge CARES)\SRIHM WorkSpace\25_Modelling\CO2RR_MKM\18_AutoThermo\FullSets\A5-O1b'
 #pathString = 'E:/Simon/Documents/Dropbox (Cambridge CARES)/SRIHM WorkSpace/25_Modelling/Reaction mechanism/Mechanism Generation/2021-04-20_new/'
-rxnFile = 'mechanism_A5-O1b.csv'
-specFile = 'A5_species2.csv'
+rxnFile = 'mechanism.csv'
+specFile = 'species.csv'
 phaseFile = 'phases.csv'
 templateFile = 'template.txt'
 mechanismFile = 'mechanism.cti'
