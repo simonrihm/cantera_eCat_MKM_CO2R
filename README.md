@@ -14,8 +14,8 @@ This CTI file is created via Python script "mechGen/py". It takes CSV input file
 -	“reverse” indicates if reaction is bidirectional (allow products to educts)
 -	“A”, “E_act”, “beta” give kinetic parameters for Arrhenius, barrier and charge transfer
 -	“Tafel”, “alkaline”, “acidic” indicate different types allowed for a hydrogenation reaction. Based on this, up to 3 reactions are created per row. Their kinetics differ in:
-  -	Pre-exponential factor by a factor of K (“tafelK”, “acidK”, “alkaK”)
-  -	Activation barrier by either completely different number (“tafelE”, “acidE”, “alkaE”) or an offset/difference to the original value (“tafelDE”, “acidDE”, “alkaDE”)
+  - Pre-exponential factor by a factor of K (“tafelK”, “acidK”, “alkaK”)
+  - Activation barrier by either completely different number (“tafelE”, “acidE”, “alkaE”) or an offset/difference to the original value (“tafelDE”, “acidDE”, “alkaDE”)
 
 ### Species Input
 -	“name” that has to line up with the species names given in mechanism, plus certain standard species that are implied: “e-“, “H+”, “*H”, “H2O”, “OH-“, “N2”
