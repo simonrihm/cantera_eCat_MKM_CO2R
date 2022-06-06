@@ -1,0 +1,35 @@
+## INPUT FILE ##
+xml=InputFiles/mechanism.xml
+csv=InputFiles/var.csv
+##
+## PARAMETER VARIATIONS ##
+var=const(0)
+steps=0
+##
+## SINGLE SIMULATION ##
+phi=csv(phi,1)
+t_end=2400
+dt_max=10
+dt_min=1e-7
+solv_atol=1e-20
+solv_rtol=1e-10
+##
+## FINAL VALUES ##
+ss_crit=1e-3
+t_avg=20
+n_avg=40
+##
+## GENERAL OPTIONS ##
+output=Results
+interaction=YES
+products=e-,H2,CO,HCOOH,CH2O,C2H4,CH3CH2OH,CH4,CH3OH,CH3COOH
+##
+## OUTPUT OPTIONS ##
+mode=TRANSIENT
+filename=OUTPUT
+species=NONE
+reactions=NONE
+coverage=YES
+current=FE
+changerate=ALL
+logging=NONE
