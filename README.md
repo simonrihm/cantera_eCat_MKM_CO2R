@@ -1,5 +1,6 @@
 # cantera_eCat_MKM_CO2R
-Microkinetic Modelling of electrocatalytic CO2 reduction by using Cantera libraries
+Microkinetic Modelling of electrocatalytic CO2 reduction by using Cantera libraries.
+The included examplary input and output files are based on this publication: https://doi.org/10.1016/j.proci.2022.07.096
 Cantera C++ library needs to be installed for compilation, Python needed for pre-processing and checking of input files
 
 # Input File Manual
