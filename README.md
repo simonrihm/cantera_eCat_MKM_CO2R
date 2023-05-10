@@ -5,6 +5,7 @@ Cantera C++ library needs to be installed for compilation, Python needed for pre
 
 # Input File Manual
 There are two main input files needed for executing the C++ code: a mechanism file (XML) and an option-defining file (txt).
+Details on the origin of the values used in included input files can be found here: https://ars.els-cdn.com/content/image/1-s2.0-S1540748922001249-mmc1.pdf
 
 ## Mechanism File Input
 The main C++ executable that runs the MKM takes a XML input file, specifying species, phases and reaction steps. This XML file is created by first generating a CTI input file that is then converted via the ctml_writer.py
